@@ -6,8 +6,7 @@ from openai import OpenAI
 # 1. 초기 설정 및 보안 체크
 st.set_page_config(page_title="정처기 합격 메이커", layout="wide")
 
-# 실행 파일의 절대 경로를 기준으로 설정 (이미지 경로 문제 해결용)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 if "auth" not in st.session_state:
     st.session_state.auth = False
