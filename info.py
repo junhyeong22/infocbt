@@ -24,8 +24,8 @@ if not st.session_state.auth:
 # 2. 데이터 로드 및 세션 상태 초기화
 @st.cache_data
 def load_data():
-    if os.path.exists("2016-03.json"):
-        with open("2016-03.json", "r", encoding="utf-8") as f:
+    if os.path.exists("2016_03.json"):
+        with open("2016_03.json", "r", encoding="utf-8") as f:
             return json.load(f)
     return []
 
