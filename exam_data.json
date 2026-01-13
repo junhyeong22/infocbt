@@ -1,0 +1,1218 @@
+[
+    {
+        "id": 1,
+        "image": null,
+        "answer": 1,
+        "question": "이행적 함수 종속 관계를 의미하는 것은?",
+        "options": {
+            "opt_1": "A→B 이고 B→C 일 때, A→C 를 만족하는 관계",
+            "opt_2": "A→B 이고 B→C 일 때, C→A 를 만족하는 관계",
+            "opt_3": "A→B 이고 B→C 일 때, B→A 를 만족하는 관계",
+            "opt_4": "A→B 이고 B→C 일 때, C→B 를 만족하는 관계"
+        }
+    },
+    {
+        "id": 2,
+        "image": "images\\q_img_0_0_0.png",
+        "answer": 3,
+        "question": "다음 SQL 질의를 관계 대수식으로 표현 하면?(단, P는 WHERE 조건절)",
+        "options": {
+            "opt_1": "π (σ (A ))",
+            "opt_2": "σ (π (R )) R1 P 1 A1 P 1",
+            "opt_3": "π (σ (R ))",
+            "opt_4": "σ (π (A )) A1 P 1 R1 P 1"
+        }
+    },
+    {
+        "id": 3,
+        "image": null,
+        "answer": 3,
+        "question": "DML에 해당하는 SQL 명령으로만 짝지어진 것은?",
+        "options": {
+            "opt_1": "DELETE, UPDATE, CREATE, ALTER",
+            "opt_2": "INSERT, DELETE, UPDATE, DROP",
+            "opt_3": "SELECT, INSERT, DELETE, UPDATE,",
+            "opt_4": "SELECT, INSERT, DELETE, ALTER"
+        }
+    },
+    {
+        "id": 4,
+        "image": null,
+        "answer": 3,
+        "question": "Which is the design step of database correctly?",
+        "options": {
+            "opt_1": "Requirement Formulation → Conceptual Schema → Physical Schema → Logical Schema",
+            "opt_2": "Logical Schema → Requirement Formulation → Conceptual Schema → Physical Schema",
+            "opt_3": "Requirement Formulation → Conceptual Schema → Logical Schema → Physical Schema",
+            "opt_4": "Logical Schema → Requirement Formulation → Physical Schema → Conceptual Schema"
+        }
+    },
+    {
+        "id": 5,
+        "image": "images\\q_img_0_0_1.png",
+        "answer": 1,
+        "question": "다음 트리를 후위 순회 (Post Traversal)할 경우 가장 마지막 에 탐색 되는 것은?",
+        "options": {
+            "opt_1": "A",
+            "opt_2": "D",
+            "opt_3": "E",
+            "opt_4": "F"
+        }
+    },
+    {
+        "id": 6,
+        "image": "images\\q_img_0_0_2.png",
+        "answer": 4,
+        "question": "데이터베이스의 특성으로 옳은 내용 모두를 나열한 것은?",
+        "options": {
+            "opt_1": "(ㄱ)",
+            "opt_2": "(ㄴ), (ㄷ)",
+            "opt_3": "(ㄱ), (ㄷ), (ㄹ)",
+            "opt_4": "(ㄱ), (ㄴ), (ㄷ), (ㄹ)"
+        }
+    },
+    {
+        "id": 7,
+        "image": null,
+        "answer": 4,
+        "question": "릴레이션의 특징으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "한 릴레이션에 포함된 튜플 사이에는 순서가 없다.",
+            "opt_2": "속성의 값은 논리적으로 더 이상 쪼갤 수 없는 원자 값이 다.",
+            "opt_3": "한 릴레이션에 포함된 튜플들은 모두 상이한다.",
+            "opt_4": "한 릴레이션을 구성하는 속성들 사이의 순서는 존재하며, 중요한 의미를 가진다."
+        }
+    },
+    {
+        "id": 8,
+        "image": null,
+        "answer": 4,
+        "question": "병행제어의 목적으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "사용자에 대한 응답시간 최소화",
+            "opt_2": "시스템 활용도 최대화",
+            "opt_3": "데이터베이스 일관성 유지",
+            "opt_4": "데이터베이스 공유도 최소화"
+        }
+    },
+    {
+        "id": 9,
+        "image": "images\\q_img_0_1_0.png",
+        "answer": 4,
+        "question": "데이터 모델에 대한 다음 설명 중 ( ) 안에 들어갈 내용으로 가장 타당한 것은?",
+        "options": {
+            "opt_1": "개체",
+            "opt_2": "속성",
+            "opt_3": "도메인",
+            "opt_4": "제약조건"
+        }
+    },
+    {
+        "id": 10,
+        "image": null,
+        "answer": 1,
+        "question": "개체 - 관계 모델에 대한 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "오너 - 멤버 (Owner-Member) 관계라고도 한다.",
+            "opt_2": "개체 타입과 이들 간의 관계 타입을 기본 요소로 이용하 여 현실 세계를 개념적으로 표현한다.",
+            "opt_3": "E-R 다이어그램에서 개체 타입은 사각형으로 나타낸다.",
+            "opt_4": "E-R 다이어그램에서 속성은 타원으로 나타낸다."
+        }
+    },
+    {
+        "id": 11,
+        "image": "images\\q_img_0_1_1.png",
+        "answer": 3,
+        "question": "스택의 자료 삭제 알고리즘이다. ( ) 안 내용으로 가장 적합 한 것은?(단, Top: 스택포인터, S: 스택의 이름)",
+        "options": {
+            "opt_1": "Overflow",
+            "opt_2": "Top = Top+1",
+            "opt_3": "Underflow",
+            "opt_4": "Top = Top-2"
+        }
+    },
+    {
+        "id": 12,
+        "image": null,
+        "answer": 3,
+        "question": "DBMS의 필수기능 중 사용자와 데이터베이스 사이의 인터 페이스 수단을 제공하는 기능은?",
+        "options": {
+            "opt_1": "Definition 기능",
+            "opt_2": "Control 기능",
+            "opt_3": "Manipulation 기능",
+            "opt_4": "Strategy 기능"
+        }
+    },
+    {
+        "id": 13,
+        "image": null,
+        "answer": 1,
+        "question": "SQL 구문에서 “having\" 절은 반드시 어떤 구문과 사용되어 야 하는가?",
+        "options": {
+            "opt_1": "GROUP BY",
+            "opt_2": "ORDER BY",
+            "opt_3": "UPDATE",
+            "opt_4": "JOIN"
+        }
+    },
+    {
+        "id": 14,
+        "image": null,
+        "answer": 1,
+        "question": "순차 파일에 대한 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "파일 탐색 효율이 우수하며, 접근 시간 및 응답 시간이 빠르기 때문에 대화형 처리에 적합하다.",
+            "opt_2": "연속적인 레코드의 저장에 의해 레코드 사이에 빈 공간 이 존재하지 않으므로 기억장치의 효율적인 이용이 가능 하다.",
+            "opt_3": "필요한 레코드를 삽입, 삭제, 수정하는 경우 파일을 재구 성해야 하므로 파일 전체를 복사해야 한다.",
+            "opt_4": "어떤 형태의 입출력 매체에서도 처리가 가능하다."
+        }
+    },
+    {
+        "id": 15,
+        "image": null,
+        "answer": 2,
+        "question": "트랜잭션은 자기의 연산에 대하여 전부 (All)또는 전무 (Nothing) 실행만이 존재하며, 일부 실행으로는 트랜잭션의 기능을 가질 수 없다는 트랜잭션의 특성은?",
+        "options": {
+            "opt_1": "consistency",
+            "opt_2": "atomicity",
+            "opt_3": "isolation",
+            "opt_4": "durability"
+        }
+    },
+    {
+        "id": 16,
+        "image": null,
+        "answer": 1,
+        "question": "로킹(Locking) 단위에 대한 설명으로 옳은 것은?",
+        "options": {
+            "opt_1": "로킹 단위가 크면 병행성 수준이 낮아진다.",
+            "opt_2": "로킹 단위가 크면 병행 제어 기법이 복잡해진다.",
+            "opt_3": "로킹 단위가 작으면 로크(lock)의 수가 적어진다.",
+            "opt_4": "로킹은 파일 단위로 이루어지며, 레코드 또는 필드는 로 킹 단위가 될 수 없다."
+        }
+    },
+    {
+        "id": 17,
+        "image": null,
+        "answer": 2,
+        "question": "관계 데이터 모델에서 릴레이션(Relation)에 포함되어 있는 튜플(Tuple)의 수를 무엇이라고 하는가?",
+        "options": {
+            "opt_1": "Degree",
+            "opt_2": "Cardinality",
+            "opt_3": "Attribute",
+            "opt_4": "Cartesian product"
+        }
+    },
+    {
+        "id": 18,
+        "image": "images\\q_img_1_0_0.png",
+        "answer": 4,
+        "question": "다음 초기 자료에 대하여 삽입 정렬 (Insertion Sort)을 이용 하여 오름차순 정렬한 경우 1회전후의 결과는?",
+        "options": {
+            "opt_1": "3, 4, 8, 7, 9",
+            "opt_2": "3, 4, 9 ,7, 8",
+            "opt_3": "7, 8, 3, 4, 9",
+            "opt_4": "3, 8, 4, 9, 7"
+        }
+    },
+    {
+        "id": 19,
+        "image": null,
+        "answer": 2,
+        "question": "관계 데이터베이스의 정규화에 대한 설명으로 옳지 않은 것 은?",
+        "options": {
+            "opt_1": "정규화를 거치지 않으면 여러 가지 상이한 종류의 정보 를 하나의 릴레이션으로 표현하여 그 릴레이이션을 조작 할 때 이상(Anomaly) 현상이 발생할 수 있다.",
+            "opt_2": "정규화의 목적은 각 릴레이션에 분산된 종속성을 하나의 릴레이션에 통합 하는 것이다.",
+            "opt_3": "이상(Anomaly) 현상은 데이터들 간에 존재하는 함수 종 속이 하나의 원인이 될 수 있다.",
+            "opt_4": "정규화가 잘못되면 데이터의 불필요한 중복이 야기되어 릴레이션을 조작할 때 문제가 발생할 수 있다."
+        }
+    },
+    {
+        "id": 20,
+        "image": "images\\q_img_1_0_1.png",
+        "answer": 2,
+        "question": "다음 그림에서 트리의 차수(degree)는?",
+        "options": {
+            "opt_1": "1",
+            "opt_2": "2",
+            "opt_3": "3",
+            "opt_4": "4"
+        }
+    },
+    {
+        "id": 21,
+        "image": null,
+        "answer": 1,
+        "question": "인터럽트 백터에 필수적인 것은?",
+        "options": {
+            "opt_1": "분기 번지",
+            "opt_2": "메모리",
+            "opt_3": "제어규칙",
+            "opt_4": "누산기"
+        }
+    },
+    {
+        "id": 22,
+        "image": null,
+        "answer": 4,
+        "question": "동기 고정식 마이크로오퍼레이션(MO) 제어의 특징을 설명 한 것으로 틀린 것은?",
+        "options": {
+            "opt_1": "제어장치의 구현이 간단하다.",
+            "opt_2": "중앙처리장치의 시간이 이용이 비효율적이다.",
+            "opt_3": "여러 종류의 MO 수행시 CPU사이클 타임이 실제적인 오 퍼레이션 시간보다 길다.",
+            "opt_4": "MO이 끝나고 다음 오퍼레이션이 수행될 될 때까지 시간 지연이 있게 되어 CPU 처리 속도가 느려진다."
+        }
+    },
+    {
+        "id": 23,
+        "image": null,
+        "answer": 3,
+        "question": "상대 주소모드를 사용하는 컴퓨터에서 분기 명령어가 저장 된 기억장치 주소가 256AH일 때, 명령어에 지정된 변위 값 이 -75H인 경우 분기되는 주소의 위치는?(단, 분기명령어의 길이는 3바이트이다.)",
+        "options": {
+            "opt_1": "24F2H 번지",
+            "opt_2": "24F5H 번지",
+            "opt_3": "24F8H 번지",
+            "opt_4": "256DH 번지"
+        }
+    },
+    {
+        "id": 24,
+        "image": null,
+        "answer": 4,
+        "question": "주소 명령어 형식에 관한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "0- 주소 명령어 형식은 PUSH/POP 연산을 사용한다.",
+            "opt_2": "1- 주소 명령어 형식은 누산기를 사용한다.",
+            "opt_3": "2- 주소 명령어 형식은 MOVE 명령이 필요하다.",
+            "opt_4": "3- 주소 명령어 형식은 내용이 연산 결과 저장으로 소멸 된다."
+        }
+    },
+    {
+        "id": 25,
+        "image": null,
+        "answer": 4,
+        "question": "16진수 80H가 들어 있는 8비트 레지스터에서 0, 2, 4번째 비트를 세트(set)하려면 얼마의 값을 OR 연산 하여야 하는 가?",
+        "options": {
+            "opt_1": "10H",
+            "opt_2": "11H",
+            "opt_3": "12H",
+            "opt_4": "15H"
+        }
+    },
+    {
+        "id": 26,
+        "image": "images\\q_img_1_1_0.png",
+        "answer": 3,
+        "question": "그림과 같은 메모리 IC에 필요한 핀(pin)의 수는?",
+        "options": {
+            "opt_1": "17",
+            "opt_2": "18",
+            "opt_3": "19",
+            "opt_4": "20"
+        }
+    },
+    {
+        "id": 27,
+        "image": null,
+        "answer": 3,
+        "question": "병렬컴퓨터에서 버스의 클럭 주기가 80ns이고, 데이터 버스 의 폭이 8byte라고 할 때, 전송 할수 있는 데이터의 양은?",
+        "options": {
+            "opt_1": "1 Mbytes/sec",
+            "opt_2": "10 Mbytes/sec",
+            "opt_3": "100 Mbytes/sec",
+            "opt_4": "1000 Mbytes/sec"
+        }
+    },
+    {
+        "id": 28,
+        "image": null,
+        "answer": 4,
+        "question": "여러 개의 LAB(Logic Array Block)과 연결선인 PIA(Programmable Interconnection Array)로 구성되며, 빠 른 성능이나 정확한 타이밍의 예측의 필요로 하는 곳에 사 용되는 것은?",
+        "options": {
+            "opt_1": "PLA(Programmable Logic Array)",
+            "opt_2": "PAL(Programmable Array Logic)",
+            "opt_3": "FPGA(Field Programmable Gate Array)",
+            "opt_4": "CPLD(Complex Programmable Logic Device)"
+        }
+    },
+    {
+        "id": 29,
+        "image": null,
+        "answer": 3,
+        "question": "명령을 수행하기 위해 CPU 내의 레지스터와 플래그의 상태 변환을 일으키는 작업은 무엇인가?",
+        "options": {
+            "opt_1": "Common operation",
+            "opt_2": "Axis operation",
+            "opt_3": "Micro operation",
+            "opt_4": "Count operation"
+        }
+    },
+    {
+        "id": 30,
+        "image": null,
+        "answer": 2,
+        "question": "8비트로 된 레지스터에서 2의 보수로 숫자를 표시한다면 이 레지스터로 표시할 수 있는 10진수의 범위는?(단, 첫째 비 트는 부호 비트로 0,1일 때 각각 양(+),음(-)을 나타낸다고 가정한다.)",
+        "options": {
+            "opt_1": "-256 ~ +256",
+            "opt_2": "-128 ~ +127",
+            "opt_3": "-128 ~ +128",
+            "opt_4": "-256 ~ +127"
+        }
+    },
+    {
+        "id": 31,
+        "image": "images\\q_img_2_0_0.png",
+        "answer": 4,
+        "question": "부동 소수점인 두 수의 나눗셈을 위한 순서를 올바르게 나 열한 것은?",
+        "options": {
+            "opt_1": "3-2-4-1-5",
+            "opt_2": "5-3-2-1-4",
+            "opt_3": "3-2-1-4-5",
+            "opt_4": "5-3-2-4-1"
+        }
+    },
+    {
+        "id": 32,
+        "image": null,
+        "answer": 1,
+        "question": "두 데이터의 비교 (Compare)를 위한 논리연산은?",
+        "options": {
+            "opt_1": "XOR 연산",
+            "opt_2": "AND 연산",
+            "opt_3": "OR 연산",
+            "opt_4": "NOT 연산"
+        }
+    },
+    {
+        "id": 33,
+        "image": null,
+        "answer": 3,
+        "question": "2개 이상의 프로그램을 주기억장치에 기억시키고 CPU를 번 갈아 사용하면서 처리하여 컴퓨터 시스템 자원 활용률을 극 대화하기 위한 프로그래밍 기법은?",
+        "options": {
+            "opt_1": "분산처리 프로그래밍",
+            "opt_2": "일괄처리 프로그래밍",
+            "opt_3": "멀티 프로그래밍",
+            "opt_4": "리얼타임 프로그래밍"
+        }
+    },
+    {
+        "id": 34,
+        "image": null,
+        "answer": 2,
+        "question": "다른 컴퓨터를 이용하여 어셈블리 언어의 프로그램을 이식 (porting)하고자 하는 마이크로프로세서의 기계어로 번역하 는 프로그램은?",
+        "options": {
+            "opt_1": "크로스 링커",
+            "opt_2": "크로스 어셈블러",
+            "opt_3": "매크로 어셈블러",
+            "opt_4": "매크로 컴파일러"
+        }
+    },
+    {
+        "id": 35,
+        "image": null,
+        "answer": 4,
+        "question": "명령어 처리를 위한 마이크로 사이클이 아닌 것은?",
+        "options": {
+            "opt_1": "인출(Fetch)",
+            "opt_2": "간접(Indirect)",
+            "opt_3": "실행(Execute)",
+            "opt_4": "메모리(Memory)"
+        }
+    },
+    {
+        "id": 36,
+        "image": "images\\q_img_2_1_0.png",
+        "answer": 3,
+        "question": "그림의 Decoder에서 Y₀ = 0, Y = 1이 입력되었을 때 “1” 1 을 출력하는 단자는?",
+        "options": {
+            "opt_1": "X₀",
+            "opt_2": "X 1",
+            "opt_3": "X",
+            "opt_4": "X 2 3"
+        }
+    },
+    {
+        "id": 37,
+        "image": null,
+        "answer": 3,
+        "question": "입·출력 제어장치의 종류가 아닌 것은?",
+        "options": {
+            "opt_1": "DMA",
+            "opt_2": "채널",
+            "opt_3": "데이터 버스",
+            "opt_4": "입출력 프로세서"
+        }
+    },
+    {
+        "id": 38,
+        "image": "images\\q_img_2_1_1.png",
+        "answer": 2,
+        "question": "논리 마이크로 연산에 있어서 레지스터 A와 B의 값이 다음 과 같이 주어졌을 때 selective-set 연산을 수행하면 어떻게 되는가? (단, A는 프로세서 레지스터이고, B는 논리 오퍼랜 드이다.)",
+        "options": {
+            "opt_1": "1100",
+            "opt_2": "1011",
+            "opt_3": "0011",
+            "opt_4": "1010"
+        }
+    },
+    {
+        "id": 39,
+        "image": "images\\q_img_2_1_2.png",
+        "answer": 1,
+        "question": "하나의 명령을 처리하는 과정으로 옳게 나열한 것은?",
+        "options": {
+            "opt_1": "",
+            "opt_2": "→",
+            "opt_3": "→",
+            "opt_4": "→ ⑤ →",
+            "opt_5": "",
+            "opt_6": "",
+            "opt_7": "→",
+            "opt_8": "→",
+            "opt_9": "→ ⑤ →",
+            "opt_10": "",
+            "opt_11": "",
+            "opt_12": "→",
+            "opt_13": "→",
+            "opt_14": "→ ⑤ →",
+            "opt_15": "",
+            "opt_16": "",
+            "opt_17": "→",
+            "opt_18": "→",
+            "opt_19": "→ ⑤ →",
+            "opt_20": ""
+        }
+    },
+    {
+        "id": 40,
+        "image": null,
+        "answer": 4,
+        "question": "I/O operation과 관계가 없는 것은?",
+        "options": {
+            "opt_1": "channel",
+            "opt_2": "handshaking",
+            "opt_3": "interrupt",
+            "opt_4": "emulation 3과목 : 운영체제"
+        }
+    },
+    {
+        "id": 41,
+        "image": null,
+        "answer": 4,
+        "question": "캐싱(Caching)과 원격서비스의 비교에 대한 설명 중 옳지 않은 것은?",
+        "options": {
+            "opt_1": "많은 원격 접근들은 캐싱이 사용될 때 지역 캐쉬에 의해 서 효율적으로 처리될 수 있다.",
+            "opt_2": "캐쉬- 일관성 문제는 캐싱의 가장 큰 결점이다.",
+            "opt_3": "모든 원격 접근은 원격- 서비스 방법이 사용 될 때 네트 워크를 통해서만 처리된다.",
+            "opt_4": "캐쉬- 일관성 문제는 쓰기 접근 빈도가 많은 접근형태에 서 캐싱이 우수하다."
+        }
+    },
+    {
+        "id": 42,
+        "image": "images\\q_img_3_0_0.png",
+        "answer": 3,
+        "question": "현재 헤드의 위치가 50에 있고 트랙 0번 방향으로 이동하 며, 요청 대기 열에는 아래와 같은 순서로 들어 있다고 가 정할 때 SSTF(Shortest Seek Time First)스케줄링 알고리즘 에 의한 헤드의 총 이동 거리는 얼마인가?",
+        "options": {
+            "opt_1": "790",
+            "opt_2": "380",
+            "opt_3": "370",
+            "opt_4": "250"
+        }
+    },
+    {
+        "id": 43,
+        "image": null,
+        "answer": 1,
+        "question": "세마포어를 사용해서 상호 배제를 구현할 수 있다. 세마포 어를 2로 초기화하였다면, 그 의미는 무엇인가?",
+        "options": {
+            "opt_1": "임계구역에 2개의 프로세서가 들어갈 수 있다.",
+            "opt_2": "두 개의 임계구역이 존재한다.",
+            "opt_3": "모든 세마포어의 기본 값은 2이다.",
+            "opt_4": "생산자/소비자를 구현하는 세마포어의 초기 값은 2이다."
+        }
+    },
+    {
+        "id": 44,
+        "image": null,
+        "answer": 3,
+        "question": "적응기법(Adaptive Mechanism)이란 시스템이 유동적인 상 태 변화에 적절히 반응하도록 하는 기법을 의미한다. 다음 스케줄링 기법 중 적응 기법의 개념을 적용하고 있는 것은?",
+        "options": {
+            "opt_1": "FIFO",
+            "opt_2": "HRN",
+            "opt_3": "MFQ",
+            "opt_4": "RR"
+        }
+    },
+    {
+        "id": 45,
+        "image": "images\\q_img_3_0_1.png",
+        "answer": 2,
+        "question": "10K 프로그램이 할당될 때 주기억장치 관리기법인 First-fit 방법을 적용할 경우 해당하는 영역은?",
+        "options": {
+            "opt_1": "영역 1",
+            "opt_2": "영역 2",
+            "opt_3": "영역 3",
+            "opt_4": "영역 4"
+        }
+    },
+    {
+        "id": 46,
+        "image": null,
+        "answer": 3,
+        "question": "쉘(shell)의 기능이 아닌 것은?",
+        "options": {
+            "opt_1": "자체의 내장 명령어 제공",
+            "opt_2": "파이프라인 기능",
+            "opt_3": "주기억장치에 상주",
+            "opt_4": "입출력 방향지정"
+        }
+    },
+    {
+        "id": 47,
+        "image": null,
+        "answer": 1,
+        "question": "디렉토리 구조 중 가장 간단한 형태로 같은 디렉토리에 시 스템에 보관된 모든 파일 정보를 포함하는 구조는?",
+        "options": {
+            "opt_1": "일단계 디렉토리",
+            "opt_2": "트리 구조 디렉토리",
+            "opt_3": "이단계 디렉토리",
+            "opt_4": "비주기 디렉토리"
+        }
+    },
+    {
+        "id": 48,
+        "image": null,
+        "answer": 4,
+        "question": "모니터에 대한 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "모니터의 경계에서 상호배제가 시행된다.",
+            "opt_2": "자료추상화와 정보은폐 기법을 기초로 한다.",
+            "opt_3": "공유 데이터와 이 데이터를 처리하는 프로시저로 구성된 다.",
+            "opt_4": "모니터 외부에서도 모니터 내의 데이터를 직접 액세스 할 수 있다."
+        }
+    },
+    {
+        "id": 49,
+        "image": null,
+        "answer": 3,
+        "question": "분산처리시스템에 대한 설명과 관련 없는 것은?",
+        "options": {
+            "opt_1": "분산된 노드들은 통신 네트워크를 이용하여 메시지를 주 고 받음으로서 정보를 교환한다.",
+            "opt_2": "사용자에게 동적으로 할당할 수 있는 일반적인 자원들이 각 노드에 분산되어 있다.",
+            "opt_3": "시스템 전체의 정책을 결정하는 어떤 통합적인 제어 기 능은 필요하지 않다.",
+            "opt_4": "사용자는 특정 자원의 물리적 위치를 알지 못하여도 사용할 수 있다."
+        }
+    },
+    {
+        "id": 50,
+        "image": null,
+        "answer": 1,
+        "question": "다음 암호화 기법에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "DES는 비대칭형 암호화 기법이다.",
+            "opt_2": "RSA는 공개키/비밀키 암호화 기법이다.",
+            "opt_3": "디지털 서명은 비대칭형 암호 알고리즘을 사용 한다.",
+            "opt_4": "DES 알고리즘에서 키 관리가 매우 중요하다."
+        }
+    },
+    {
+        "id": 51,
+        "image": "images\\q_img_3_1_0.png",
+        "answer": 4,
+        "question": "다음 표는 고정 분할에서의 기억 장치 Fragmentation현상을 보이고 있다. External Fragmentation은 총 얼마인가?",
+        "options": {
+            "opt_1": "480K",
+            "opt_2": "430K",
+            "opt_3": "260K",
+            "opt_4": "170K"
+        }
+    },
+    {
+        "id": 52,
+        "image": null,
+        "answer": 4,
+        "question": "디스크 스케줄링의 목적과 거리가 먼 것은?",
+        "options": {
+            "opt_1": "처리율 극대화",
+            "opt_2": "평균 반응시간의 단축",
+            "opt_3": "응답시간의 최소화",
+            "opt_4": "디스크 공간 확보"
+        }
+    },
+    {
+        "id": 53,
+        "image": null,
+        "answer": 4,
+        "question": "프로세서의 상태정보를 갖고 있는 PCB (Process Control Block)의 내용이 아닌 것은?",
+        "options": {
+            "opt_1": "프로세스 식별정보",
+            "opt_2": "프로세스 제어정보",
+            "opt_3": "프로세스(CPU) 상태정보",
+            "opt_4": "프로세스 생성정보"
+        }
+    },
+    {
+        "id": 54,
+        "image": null,
+        "answer": 4,
+        "question": "로더의 종류 중 별도의 로더 없이 언어번역 프로그램이 로 더의 기능까지 수행하는 방식은?",
+        "options": {
+            "opt_1": "Absolute Loader",
+            "opt_2": "Direct Linking Loader",
+            "opt_3": "dynamic Loader",
+            "opt_4": "Compile and Go Loader"
+        }
+    },
+    {
+        "id": 55,
+        "image": "images\\q_img_3_1_1.png",
+        "answer": 2,
+        "question": "분산시스템의 위상에 따른 분류 방식 중 다음 설명에 해당 하는 방식은?",
+        "options": {
+            "opt_1": "Ring Connected",
+            "opt_2": "Multiaccess Bus Connected",
+            "opt_3": "Partially Connected",
+            "opt_4": "Fully Connected"
+        }
+    },
+    {
+        "id": 56,
+        "image": null,
+        "answer": 3,
+        "question": "인터럽트의 종류 중 컴퓨터 자체 내의 기계적인 장애나 오 류로 인하여 발생하는 것은?",
+        "options": {
+            "opt_1": "입/출력의 인터럽트",
+            "opt_2": "외부 인터럽트",
+            "opt_3": "기계 검사 인터럽트",
+            "opt_4": "프로그램 검사 인터럽트"
+        }
+    },
+    {
+        "id": 57,
+        "image": null,
+        "answer": 3,
+        "question": "데이터의 비밀성을 보장하는데 사용될 수 있는 암호화 알고 리즘이 아닌 것은?",
+        "options": {
+            "opt_1": "DES(Data Encryption Standard)",
+            "opt_2": "RSA(Rivest Shamir Adleman)",
+            "opt_3": "Read-Solomon code",
+            "opt_4": "FEAL(Fast Encryption Algorithm)"
+        }
+    },
+    {
+        "id": 58,
+        "image": null,
+        "answer": 4,
+        "question": "시스템 타이머에서 일정한 시간이 만료된 경우나 오퍼레이 터가 콘솔상의 인터 럽트 키를 입력한 경우 발생하는 인터 럽트는?",
+        "options": {
+            "opt_1": "프로그램 검사 인터럽트",
+            "opt_2": "SVC 인터럽트",
+            "opt_3": "입·출력 인터럽트",
+            "opt_4": "외부 인터럽트"
+        }
+    },
+    {
+        "id": 59,
+        "image": null,
+        "answer": 1,
+        "question": "UNIX 파일 시스템의 블록구조에 포함되지 않은 것은?",
+        "options": {
+            "opt_1": "USER BLOCK",
+            "opt_2": "BOOT BLOCK",
+            "opt_3": "INODE LIST",
+            "opt_4": "SUPER BLOCK"
+        }
+    },
+    {
+        "id": 60,
+        "image": null,
+        "answer": 2,
+        "question": "UNIX에서 파일의 사용 허가를 정하는 명령은?",
+        "options": {
+            "opt_1": "cp",
+            "opt_2": "chmod",
+            "opt_3": "cat",
+            "opt_4": "ls 4과목 : 소프트웨어 공학"
+        }
+    },
+    {
+        "id": 61,
+        "image": null,
+        "answer": 3,
+        "question": "소프트웨어 재사용에 가장 많이 이용되는 것은?",
+        "options": {
+            "opt_1": "Hipo-chart",
+            "opt_2": "Test Case",
+            "opt_3": "Source Code",
+            "opt_4": "Project Plan"
+        }
+    },
+    {
+        "id": 62,
+        "image": null,
+        "answer": 4,
+        "question": "객체지향 기법의 캡슐화(Encapsulation)에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "변경 발생 시 오류의 파급효과가 적다.",
+            "opt_2": "인터페이스가 단순화 된다.",
+            "opt_3": "소프트웨어 재사용성이 높아진다.",
+            "opt_4": "상위 클래스의 모든 속성과 연산을 하위 클래스가 물려 받는 것을 의미한다."
+        }
+    },
+    {
+        "id": 63,
+        "image": null,
+        "answer": 3,
+        "question": "CASE에 대한 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "소프트웨어 모듈의 재사용성이 향상된다.",
+            "opt_2": "자동화된 기법을 통해 소프트웨어 품질이 향상된다.",
+            "opt_3": "소프트웨어 사용자들이 소프트웨어 사용 방법을 신속히 숙지할 수 있도록 개발된 자동화 패키지이다.",
+            "opt_4": "소프트웨어 유지보수를 간편하게 수행할 수 있다"
+        }
+    },
+    {
+        "id": 64,
+        "image": null,
+        "answer": 3,
+        "question": "OMA(Object Management Architecture)레퍼런스 모델은 OMG(Object Management Group)의 활동 방향과 목적에 부합하는 모델이다. 다음 중 OMA 레퍼런스 모델의 구성요 소가 아닌 것은?",
+        "options": {
+            "opt_1": "Common Facilities",
+            "opt_2": "Application Interface",
+            "opt_3": "User Interface",
+            "opt_4": "Domain Interface"
+        }
+    },
+    {
+        "id": 65,
+        "image": null,
+        "answer": 1,
+        "question": "소프트웨어를 개발하기 위한 비즈니스(업무)를 객체와 속성, 클래스와 멤버, 전체와 부분등으로 나누어서 분석해 내는 기법은?",
+        "options": {
+            "opt_1": "객체지향 분석",
+            "opt_2": "구조적 분석",
+            "opt_3": "기능적 분석",
+            "opt_4": "실시간 분석"
+        }
+    },
+    {
+        "id": 66,
+        "image": "images\\q_img_4_1_0.png",
+        "answer": 4,
+        "question": "다음 객체지향 기법에 대한 설명에 해당하는 것은?",
+        "options": {
+            "opt_1": "Encapsulation",
+            "opt_2": "Abstraction",
+            "opt_3": "Inheritance",
+            "opt_4": "Polymorphism"
+        }
+    },
+    {
+        "id": 67,
+        "image": null,
+        "answer": 4,
+        "question": "소프트웨어의 문서(document) 표준이 되었을 때, 개발자가 얻는 이득 으로 가장 거리가 먼 것은?",
+        "options": {
+            "opt_1": "시스템 개발을 위한 분석과 설계가 용이하다.",
+            "opt_2": "프로그램 유지보수가 용이하다.",
+            "opt_3": "프로그램의 확장성이 있다.",
+            "opt_4": "프로그램 개발 인력이 감소된다."
+        }
+    },
+    {
+        "id": 68,
+        "image": null,
+        "answer": 3,
+        "question": "COCOMO(COnstructive COst MOdel) 비용예측 모델에 대 한 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "보헴 (Boehm)이 제안한 소스 코드 (Source Code) 의 규모에 의한 비용예측 모델이다.",
+            "opt_2": "소프트웨어 프로젝트 유형에 따라 다르게 책정되는 비용 산정 수식(Equation)을 이용한다.",
+            "opt_3": "COCOMO 방법은 가정과 제약조건이 없어 모든 시스템 에 동일하게 적용할 수 있다.",
+            "opt_4": "같은 규모의 소프트웨어라도 그 유형에 따라 비용이 다 르게 산정된다."
+        }
+    },
+    {
+        "id": 69,
+        "image": null,
+        "answer": 3,
+        "question": "소프트웨어 품질 목표 중 하나 이상의 하드웨어 환경에서 운용되기 위해 쉽게 수정될 수 있는 시스템 능력을 의미하 는 것은?",
+        "options": {
+            "opt_1": "Reliability",
+            "opt_2": "Correctness",
+            "opt_3": "Portability",
+            "opt_4": "Efficiency"
+        }
+    },
+    {
+        "id": 70,
+        "image": "images\\q_img_4_1_1.png",
+        "answer": 4,
+        "question": "다음 중 가, 나에 들어갈 내용으로 옳게 짝지어진 것은?",
+        "options": {
+            "opt_1": "가-데이터, 나- 명령문",
+            "opt_2": "가-명령문, 나- 의문문",
+            "opt_3": "가-의문문, 나- 제어문",
+            "opt_4": "가- 동사, 나- 명사"
+        }
+    },
+    {
+        "id": 71,
+        "image": null,
+        "answer": 4,
+        "question": "사용자의 요구사항을 충분히 분석할 목적으로 시스템의 일 부분 또는 시제품을 일시적으로 간결히 구현한 다음 다시 요구사항을 반영하는 과정을 반복하는 점진적 개발 생명주 기를 갖는 모델은?(문제 오류로 가답안 발표시 4번으로 발 표되었지만 확정답안 발표시 2, 4번으로 중복답안 처리 되 었습니다. 여기서는 4번을 누르면 정답 처리 됩니다.)",
+        "options": {
+            "opt_1": "4GT Model",
+            "opt_2": "Spiral Model",
+            "opt_3": "Waterfall Model",
+            "opt_4": "Prototype Model"
+        }
+    },
+    {
+        "id": 72,
+        "image": null,
+        "answer": 3,
+        "question": "소프트웨어 프로젝트 관리를 효과적으로 수행하는데 필요한 3P와 거리가 먼 것은?",
+        "options": {
+            "opt_1": "PROBLEM",
+            "opt_2": "PROCESS",
+            "opt_3": "PASSING",
+            "opt_4": "PEOPLE"
+        }
+    },
+    {
+        "id": 73,
+        "image": null,
+        "answer": 3,
+        "question": "데이터 모델링에 있어서 ERD (Entity Relationship Diagram)는 무엇을 나타내고자하는가?",
+        "options": {
+            "opt_1": "데이터 흐름의 표현",
+            "opt_2": "데이터 구조의 표현",
+            "opt_3": "데이터 구조들과 그들 간의 관계들을 표현",
+            "opt_4": "데이터 사전을 표현"
+        }
+    },
+    {
+        "id": 74,
+        "image": null,
+        "answer": 1,
+        "question": "소프트웨어 재공학 활동 중 기존 소프트웨어의 명세서를 확 인하고 소프트웨어의 동적을 이해하고 재공학 대상을 선정 하는 것은?",
+        "options": {
+            "opt_1": "분석(analysis)",
+            "opt_2": "재구성(restructuring)",
+            "opt_3": "역공학(reverse engineering)",
+            "opt_4": "이식(migeation)"
+        }
+    },
+    {
+        "id": 75,
+        "image": null,
+        "answer": 4,
+        "question": "소프트웨어 개발 비용 산정 요소로 알맞지 않은 것은?",
+        "options": {
+            "opt_1": "프로젝트 자체 요소로 문제의 복잡도, 시스템의 규모, 요 구되는 신뢰도 등이 있다",
+            "opt_2": "개발에 필요한 인적 자원, 하드웨어 자원, 소프트웨어 자 원 등이 있다.",
+            "opt_3": "Person-Month(PM) 당 제작되는 평균 LOC(Line of Code) 등이 있다.",
+            "opt_4": "프로젝트 관리 방법론에 따라 생산된 문서와 관리 비용 등이 있다"
+        }
+    },
+    {
+        "id": 76,
+        "image": null,
+        "answer": 3,
+        "question": "소프트웨어 품질 측정에 위해 개발자 관점에서 고려해야 할 항목으로 가장 거리가 먼 것은?",
+        "options": {
+            "opt_1": "정확성",
+            "opt_2": "무결성",
+            "opt_3": "간결성",
+            "opt_4": "일관성"
+        }
+    },
+    {
+        "id": 77,
+        "image": "images\\q_img_5_0_0.png",
+        "answer": 2,
+        "question": "정형 기술 검토(FTR)의 지침 사항으로 옳은 내용 모두를 나 열한 것은?",
+        "options": {
+            "opt_1": "1, 4",
+            "opt_2": "1, 2, 3",
+            "opt_3": "1, 2, 4",
+            "opt_4": "1, 2, 3, 4"
+        }
+    },
+    {
+        "id": 78,
+        "image": null,
+        "answer": 2,
+        "question": "시스템의 기능을 여러 개의 고유 모듈들로 분할하여 이들 간의 인터페이스를 계층구조로 표현한 도형 또는 도면을 무 엇이라 하는가?",
+        "options": {
+            "opt_1": "Flow Chart",
+            "opt_2": "HIPO Chart",
+            "opt_3": "Control Specification",
+            "opt_4": "Box Diagram"
+        }
+    },
+    {
+        "id": 79,
+        "image": null,
+        "answer": 2,
+        "question": "소프트웨어 위기 발생요인과 거리가 먼 것은?",
+        "options": {
+            "opt_1": "소프트웨어 개발 요구의 다양화",
+            "opt_2": "소프트웨어 규모의 증대와 복잡도에 따른 개발 비용의 감소",
+            "opt_3": "작업일정과 비용의 추정치가 부정확",
+            "opt_4": "새로운 소프트웨어의 오류율이 고객 불만과 신뢰결여를 유발"
+        }
+    },
+    {
+        "id": 80,
+        "image": null,
+        "answer": 4,
+        "question": "소프트웨어 개발에서 요구사항 분석 (Requirements Analysis)과 거리가 먼 것은?",
+        "options": {
+            "opt_1": "비용과 일정에 대한 제약설정",
+            "opt_2": "타당성 조사",
+            "opt_3": "요구사항 정의 문서화",
+            "opt_4": "설계 명세서 작성 5과목 : 데이터 통신"
+        }
+    },
+    {
+        "id": 81,
+        "image": null,
+        "answer": 1,
+        "question": "디지털 통신망을 구성하는 디지털 교환기 사이에 클록 주파 수의 차이가 생기면 데이터의 손실이 발생할 수 있는데 이 를 무엇이라 하는가?",
+        "options": {
+            "opt_1": "슬립(slip)",
+            "opt_2": "폴링 (polling)",
+            "opt_3": "피기백(piggyback)",
+            "opt_4": "인터리빙(interleaving)"
+        }
+    },
+    {
+        "id": 82,
+        "image": null,
+        "answer": 3,
+        "question": "하나의 정보를 여러 개의 반송파로 분할하고, 분할된 반송 파 사이의 주파수 간격을 최소화하기 위해 직교 다중화해서 전송하는 통신방식으로, 와이브로 및 디지털 멀티미디어 방 송 등에 사용되는 기술은?",
+        "options": {
+            "opt_1": "TDM",
+            "opt_2": "DSSS",
+            "opt_3": "OFDM",
+            "opt_4": "FHSS"
+        }
+    },
+    {
+        "id": 83,
+        "image": null,
+        "answer": 1,
+        "question": "10.0.0.0 네트워크 전체에서 마스크 값으로 255.240.0.0를 사용할 경우 유효한 서브네트 ID는?",
+        "options": {
+            "opt_1": "10.240.0.0",
+            "opt_2": "10.0.0.32",
+            "opt_3": "10.1.16.3",
+            "opt_4": "10.29.240.0"
+        }
+    },
+    {
+        "id": 84,
+        "image": null,
+        "answer": 1,
+        "question": "주파수 분할 다중화기(FDM)에서 부채널 간의 상호 간섭을 방지하기 위한 것은?",
+        "options": {
+            "opt_1": "가드 밴드(Guard Band)",
+            "opt_2": "채널(Channel)",
+            "opt_3": "버퍼(Buffer)",
+            "opt_4": "슬롯(Slot)"
+        }
+    },
+    {
+        "id": 85,
+        "image": null,
+        "answer": 3,
+        "question": "OSI 7계층에서 네트워크 논리적 어드레싱과 라우팅 기능을 수행하는 계층은?",
+        "options": {
+            "opt_1": "1계층",
+            "opt_2": "2계층",
+            "opt_3": "3계층",
+            "opt_4": "4계층"
+        }
+    },
+    {
+        "id": 86,
+        "image": null,
+        "answer": 4,
+        "question": "2 out of 5 부호를 이용하여 에러를 검출 하는 방식은?",
+        "options": {
+            "opt_1": "패리티 체크 방식",
+            "opt_2": "군계수 체크 방식",
+            "opt_3": "SQD 방식",
+            "opt_4": "정 마크(정 스페이스)방식"
+        }
+    },
+    {
+        "id": 87,
+        "image": null,
+        "answer": 4,
+        "question": "원천부호화(source coding) 방식에 속하지 않는 것은?",
+        "options": {
+            "opt_1": "DPCM",
+            "opt_2": "DM",
+            "opt_3": "LPC",
+            "opt_4": "FDM"
+        }
+    },
+    {
+        "id": 88,
+        "image": null,
+        "answer": 3,
+        "question": "사용 대역폭이 4kHz이고 16진 PSK를 사용한 경우 데이터 신호속도(kbps)는?",
+        "options": {
+            "opt_1": "4",
+            "opt_2": "8",
+            "opt_3": "16",
+            "opt_4": "64"
+        }
+    },
+    {
+        "id": 89,
+        "image": null,
+        "answer": 1,
+        "question": "HDLC 프레임 구성에서 프레임 검사 시퀸스(FCS) 영역의 기능으로 옳은 것은?",
+        "options": {
+            "opt_1": "전송 오류 검출",
+            "opt_2": "데이터 처리",
+            "opt_3": "주소 인식",
+            "opt_4": "정보 저장"
+        }
+    },
+    {
+        "id": 90,
+        "image": null,
+        "answer": 1,
+        "question": "블루투스(Bluetooth)의 프로토콜 스택에서 물리 계층을 규정 하는 것은?",
+        "options": {
+            "opt_1": "RF",
+            "opt_2": "L2CAP",
+            "opt_3": "HID",
+            "opt_4": "RFCOMM"
+        }
+    },
+    {
+        "id": 91,
+        "image": "images\\q_img_6_0_3.png",
+        "answer": 2,
+        "question": "HDLC(High-level Data Link Control) 프레임 형식으로 옳은 것은?",
+        "options": {
+            "opt_1": "",
+            "opt_2": "",
+            "opt_3": "",
+            "opt_4": ""
+        }
+    },
+    {
+        "id": 92,
+        "image": null,
+        "answer": 4,
+        "question": "전송제어 프로토콜 중 문자 방식 프로토콜에서 전송끝 및 데이더 링크 초기화 부호는?",
+        "options": {
+            "opt_1": "SOH",
+            "opt_2": "ACK",
+            "opt_3": "SYN",
+            "opt_4": "EOT"
+        }
+    },
+    {
+        "id": 93,
+        "image": null,
+        "answer": 3,
+        "question": "채널 대역폭이 150[kHz]이고 S/N비가 15일 때 채널용량 [kbps]은?",
+        "options": {
+            "opt_1": "150",
+            "opt_2": "300",
+            "opt_3": "600",
+            "opt_4": "750"
+        }
+    },
+    {
+        "id": 94,
+        "image": null,
+        "answer": 2,
+        "question": "IEEE 802.5 는 무엇에 대한 표준인가?",
+        "options": {
+            "opt_1": "이더넷",
+            "opt_2": "토큰링",
+            "opt_3": "토큰버스",
+            "opt_4": "FDDI"
+        }
+    },
+    {
+        "id": 95,
+        "image": null,
+        "answer": 2,
+        "question": "전송하려는 부호어들이 최소 해밍 거리가 7일때, 수신시 정 정할 수 있는 최대 오류의 수는?",
+        "options": {
+            "opt_1": "2",
+            "opt_2": "3",
+            "opt_3": "4",
+            "opt_4": "5"
+        }
+    },
+    {
+        "id": 96,
+        "image": null,
+        "answer": 1,
+        "question": "프로토콜의 기본 구성 요소가 아닌 것은?",
+        "options": {
+            "opt_1": "개체(entity)",
+            "opt_2": "구문(syntax)",
+            "opt_3": "의미(semantic)",
+            "opt_4": "타이밍(timing)"
+        }
+    },
+    {
+        "id": 97,
+        "image": null,
+        "answer": 1,
+        "question": "1000BaseT 규격에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "최대 전송속도는 1000 kbps 이다.",
+            "opt_2": "베이스 밴드 전송 방식을 사용한다.",
+            "opt_3": "전송 매체는 UTP(꼬임쌍선) 이다.",
+            "opt_4": "주로 이더넷(Ethernet)에서 사용된다."
+        }
+    },
+    {
+        "id": 98,
+        "image": null,
+        "answer": 1,
+        "question": "HDLC의 ABM(Asynchronous Balanced Mode) 동작모드의 부분집합으로 X.25의 링크 계층에서 사용되는 프로토콜은?",
+        "options": {
+            "opt_1": "LAPB",
+            "opt_2": "LAPD",
+            "opt_3": "LAPX",
+            "opt_4": "LAPM"
+        }
+    },
+    {
+        "id": 99,
+        "image": null,
+        "answer": 1,
+        "question": "데이터 변조속도가 3600baud이고 퀴드비트 (Quad bit)를 사용하는 경우 전송속도(bps)는?",
+        "options": {
+            "opt_1": "14400",
+            "opt_2": "10800",
+            "opt_3": "9600",
+            "opt_4": "7200"
+        }
+    },
+    {
+        "id": 100,
+        "image": null,
+        "answer": 2,
+        "question": "양자화 스텝수가 5비트이면 양자화 계단수는?",
+        "options": {
+            "opt_1": "16",
+            "opt_2": "32",
+            "opt_3": "64",
+            "opt_4": "128"
+        }
+    }
+]
