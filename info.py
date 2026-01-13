@@ -24,8 +24,8 @@ if not st.session_state.auth:
 # 2. 데이터 로드 및 세션 상태 초기화
 @st.cache_data
 def load_data():
-    if os.path.exists("exam_data.json"):
-        with open("exam_data.json", "r", encoding="utf-8") as f:
+    if os.path.exists("2016-03.json"):
+        with open("2016-03.json", "r", encoding="utf-8") as f:
             return json.load(f)
     return []
 
@@ -33,7 +33,7 @@ exam_data = load_data()
 
 # 데이터가 비어있을 경우 예외 처리
 if not exam_data:
-    st.error("⚠️ 'exam_data.json' 파일을 찾을 수 없습니다. 깃허브에 파일이 포함되어 있는지 확인하세요.")
+    st.error("⚠️ 파일을 찾을 수 없습니다. 깃허브에 파일이 포함되어 있는지 확인하세요.")
     st.stop()
 
 if 'idx' not in st.session_state:
