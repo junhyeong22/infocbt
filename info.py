@@ -6,8 +6,6 @@ from openai import OpenAI
 # 1. 초기 설정 및 보안 체크
 st.set_page_config(page_title="정처기 합격 메이커", layout="wide")
 
-
-
 if "auth" not in st.session_state:
     st.session_state.auth = False
 
@@ -15,6 +13,7 @@ if not st.session_state.auth:
     st.title("🔐 접근 제한")
     password_input = st.text_input("서비스 이용을 위해 암호를 입력하세요", type="password")
     if st.button("로그인"):
+        # 스트림릿 secrets에 설정된 비밀번호와 비교
         if password_input == st.secrets["LOGIN_PASSWORD"]:
             st.session_state.auth = True
             st.rerun()
@@ -32,6 +31,11 @@ def load_data():
 
 exam_data = load_data()
 
+# 데이터가 비어있을 경우 예외 처리
+if not exam_data:
+    st.error("⚠️ 'exam_data.json' 파일을 찾을 수 없거나 데이터가 비어 있습니다.")
+    st.stop()
+
 if 'idx' not in st.session_state:
     st.session_state.idx = 0
     st.session_state.score = 0
@@ -42,7 +46,7 @@ if 'idx' not in st.session_state:
 # 3. GPT API 연동 함수
 def ask_gpt_explanation(question, options, correct_answer):
     client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-    # options가 딕셔너리일 경우 문자열로 변환하여 전달
+    # 선택지 딕셔너리를 가독성 좋은 문자열로 변환
     opts_str = "\n".join([f"{k}: {v}" for k, v in options.items()])
     prompt = f"""
     정보처리기사 시험 문제에 대한 해설을 제공해줘.
@@ -67,6 +71,7 @@ if st.session_state.idx >= len(exam_data):
     st.balloons()
     
     total_q = len(exam_data)
+    # ZeroDivisionError 방지
     score_pct = (st.session_state.score / total_q) * 100 if total_q > 0 else 0
     st.metric("최종 점수", f"{st.session_state.score} / {total_q}", f"{score_pct:.1f}%")
     
@@ -95,19 +100,18 @@ col_main, col_side = st.columns([2, 1])
 with col_main:
     st.subheader(f"Q{q['id']}. {q['question']}")
     
-    # --- 이미지 경로 처리 로직 수정 ---
+    # --- 이미지 경로 처리 (상대 경로 직접 사용) ---
     if q.get('image'):
-        # 1. 역슬래시(\\)를 현재 OS의 구분자에 맞게 변환
-        normalized_path = os.path.normpath(q['image'])
-        # 2. 실행 파일 위치를 기준으로 절대 경로 생성
-        img_full_path = os.path.join(BASE_DIR, normalized_path)
+        # JSON 내 'images\\파일명' 형태를 OS 환경에 맞게 표준화 (역슬래시 해결)
+        rel_img_path = os.path.normpath(q['image'])
         
-        if os.path.exists(img_full_path):
-            st.image(img_full_path, caption=f"문제 {q['id']} 관련 도식", use_container_width=False, width=500)
+        # 파일이 실제로 존재하는지 확인 후 출력
+        if os.path.exists(rel_img_path):
+            st.image(rel_img_path, caption=f"문제 {q['id']} 관련 도식", use_container_width=False, width=500)
         else:
-            st.warning(f"⚠️ 이미지를 찾을 수 없습니다: {normalized_path}")
+            st.warning(f"⚠️ 이미지를 찾을 수 없습니다: {rel_img_path}")
     
-    # 선지 구성 (JSON의 options 딕셔너리 값 사용)
+    # 선지 구성 (JSON의 options 딕셔너리 기반)
     options_list = [f"{i+1}. {text}" for i, text in enumerate(q['options'].values())]
     user_choice = st.radio("보기에서 정답을 골라주세요", options_list, index=None, key=f"radio_{q['id']}")
 
@@ -123,6 +127,7 @@ with col_main:
         if not user_choice:
             st.warning("정답을 먼저 선택하세요.")
         else:
+            # 정답 비교 (사용자 선택 번호 vs JSON 내 숫자 정답)
             user_ans_num = int(user_choice.split('.')[0])
             correct_ans_num = int(q['answer'])
             
@@ -142,6 +147,7 @@ with col_main:
     # 다음 문제 버튼 (제출 후에만 표시)
     if st.session_state.submitted and user_choice:
         if st.button("다음 문제 ➡️"):
+            # 현재 문제의 결과 저장
             user_val = int(user_choice.split('.')[0])
             correct_val = int(q['answer'])
             is_correct = (user_val == correct_val)
@@ -155,7 +161,7 @@ with col_main:
             if is_correct:
                 st.session_state.score += 1
             
-            # 상태 초기화 및 인덱스 증가
+            # 다음 문항으로 상태 업데이트
             st.session_state.idx += 1
             st.session_state.submitted = False
             st.session_state.gpt_response = ""
