@@ -26,7 +26,7 @@ if not st.session_state.auth:
 exam_files = {
     "2016년 3회차": "2016_03.json",
     "2016년 5회차": "2016_05.json",
-    "exam_data회차": "exam_data.json"  # 사용자의 요청에 따른 추가
+    "2016년 8회차": "2016_08.json"  # 사용자의 요청에 따른 추가
 }
 
 @st.cache_data
