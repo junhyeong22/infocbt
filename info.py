@@ -12,14 +12,14 @@ if "auth" not in st.session_state:
 
 if not st.session_state.auth:
     st.title("🔐 접근 제한")
-    password_input = st.text_input("서비스 이용을 위해 암호를 입력하세요", type="password")
+    password_input = st.text_input("서비스 이용을 위해 암호를 입력하세요. made by luke park", type="password")
     if st.button("로그인"):
         # 스트림릿 secrets에 설정된 LOGIN_PASSWORD와 비교
         if password_input == st.secrets["LOGIN_PASSWORD"]:
             st.session_state.auth = True
             st.rerun()
         else:
-            st.error("암호가 올바르지 않습니다.")
+            st.error("누구십니까?????? 암호가 올바르지 않습니다.")
     st.stop()
 
 # 2. 데이터 로드 함수 및 회차 매핑
