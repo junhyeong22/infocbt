@@ -104,7 +104,7 @@ if st.session_state.idx >= len(exam_data):
 # 5. 메인 문제 풀이 UI
 q = exam_data[st.session_state.idx]
 
-st.title(f"✍️ 정처기 CBT ({st.session_state.current_exam})")
+st.title(f"📚 정처기 CBT")
 st.progress((st.session_state.idx + 1) / len(exam_data))
 
 col_main, col_side = st.columns([2, 1])
