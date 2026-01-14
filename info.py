@@ -5,7 +5,7 @@ import plotly.express as px
 from openai import OpenAI
 
 # 1. 초기 설정 및 보안 체크
-st.set_page_config(page_title="정처기 CBT", layout="wide")
+st.set_page_config(page_title="NEMO GAME", layout="wide")
 
 if "auth" not in st.session_state:
     st.session_state.auth = False
@@ -104,7 +104,7 @@ if st.session_state.idx >= len(exam_data):
 # 5. 메인 문제 풀이 UI
 q = exam_data[st.session_state.idx]
 
-st.title(f"📚 정처기 CBT")
+st.title(f"📚 NEMO GAME")
 st.progress((st.session_state.idx + 1) / len(exam_data))
 
 col_main, col_side = st.columns([2, 1])
