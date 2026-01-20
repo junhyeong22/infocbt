@@ -5,7 +5,7 @@ import plotly.express as px
 from openai import OpenAI
 
 # 1. 초기 설정 및 보안 체크
-st.set_page_config(page_title="NEMO GAME", layout="wide")
+st.set_page_config(page_title="안되면 되게, 그래도 안되면 될 때까지! ", layout="wide")
 
 if "auth" not in st.session_state:
     st.session_state.auth = False
