@@ -1,0 +1,1202 @@
+[
+    {
+        "id": 1,
+        "image": null,
+        "answer": 4,
+        "question": "운영체제 분석을 위해 리눅스에서 버전을 확인하고자 할 때 사용되는 명령어는?(문제 오류로 가답안 발표시 4번으로 발 표되었지만 확정답안 발표시 2, 4번이 정답처리 되었습니다. 여기서는 가답안인 4번을 누르시면 정답 처리 됩니다.)",
+        "options": {
+            "opt_1": "ls",
+            "opt_2": "cat",
+            "opt_3": "pwd",
+            "opt_4": "uname"
+        }
+    },
+    {
+        "id": 2,
+        "image": null,
+        "answer": 2,
+        "question": "통신을 위한 프로그램을 생성하여 포트를 할당하고, 클라이언 트의 통신 요청 시 클라이언트와 연결하는 내·외부 송·수신 연계기술은?",
+        "options": {
+            "opt_1": "DB링크 기술",
+            "opt_2": "소켓 기술",
+            "opt_3": "스크럼 기술",
+            "opt_4": "프로토타입 기술"
+        }
+    },
+    {
+        "id": 3,
+        "image": null,
+        "answer": 2,
+        "question": "객체지향 개념에서 연관된 데이터와 함수를 함께 묶어 외부 와 경계를 만들고 필요한 인터페이스만을 밖으로 드러내는 과정은?",
+        "options": {
+            "opt_1": "메시지(Message)",
+            "opt_2": "캡슐화(Encapsulation)",
+            "opt_3": "다형성(Polymorphism)",
+            "opt_4": "상속(Inheritance)"
+        }
+    },
+    {
+        "id": 4,
+        "image": null,
+        "answer": 3,
+        "question": "GoF(Gangs of Four) 디자인 패턴의 생성패턴에 속하지 않는 것은?",
+        "options": {
+            "opt_1": "추상 팩토리(Abstract Factory)",
+            "opt_2": "빌더(Builder)",
+            "opt_3": "어댑터(Adapter)",
+            "opt_4": "싱글턴(Singleton)"
+        }
+    },
+    {
+        "id": 5,
+        "image": null,
+        "answer": 3,
+        "question": "응용프로그램의 프로시저를 사용하여 원격 프로시저를 로컬 프로시저처럼 호출하는 방식의 미들웨어는?",
+        "options": {
+            "opt_1": "WAS(Web Application Server)",
+            "opt_2": "MOM(Message Oriented Middleware)",
+            "opt_3": "RPC(Remote Procedure Call)",
+            "opt_4": "ORB(Object Request Broker)"
+        }
+    },
+    {
+        "id": 6,
+        "image": null,
+        "answer": 4,
+        "question": "바람직한 소프트웨어 설계 지침이 아닌 것은?",
+        "options": {
+            "opt_1": "모듈의 기능을 예측할 수 있도록 정의한다.",
+            "opt_2": "이식성을 고려한다.",
+            "opt_3": "적당한 모듈의 크기를 유지한다.",
+            "opt_4": "가능한 모듈을 독립적으로 생성하고 결합도를 최대화한 다."
+        }
+    },
+    {
+        "id": 7,
+        "image": null,
+        "answer": 1,
+        "question": "객체지향 분석 방법론 중 Coad-Yourdon 방법에 해당하는 것은?",
+        "options": {
+            "opt_1": "E-R 다이어그램을 사용하여 객체의 행위를 데이터 모델 링하는데 초점을 둔 방법이다.",
+            "opt_2": "객체, 동적, 기능 모델로 나누어 수행하는 방법이다.",
+            "opt_3": "미시적 개발 프로세스와 거시적 개발 프로세스를 모두 사 용하는 방법이다.",
+            "opt_4": "Use-Case를 강조하여 사용하는 방법이다."
+        }
+    },
+    {
+        "id": 8,
+        "image": "images\\q_img_202103_0_1_0.png",
+        "answer": 2,
+        "question": "다음은 어떤 프로그램 구조를 나타낸다. 모듈 F에서의 fan-in 과 fan-out의 수는 얼마인가?",
+        "options": {
+            "opt_1": "fan-in : 2, fan-out : 3",
+            "opt_2": "fan-in : 3, fan-out : 2",
+            "opt_3": "fan-in : 1, fan-out : 2",
+            "opt_4": "fan-in : 2, fan-out : 1"
+        }
+    },
+    {
+        "id": 9,
+        "image": null,
+        "answer": 4,
+        "question": "현행 시스템 분석에서 고려하지 않아도 되는 항목은?",
+        "options": {
+            "opt_1": "DBMS 분석",
+            "opt_2": "네트워크 분석",
+            "opt_3": "운영체제 분석",
+            "opt_4": "인적 자원 분석"
+        }
+    },
+    {
+        "id": 10,
+        "image": null,
+        "answer": 1,
+        "question": "분산 컴퓨팅 환경에서 서로 다른 기종 간의 하드웨어나 프 로토콜, 통신환경 등을 연결하여 응용프로그램과 운영환경 간에 원만한 통신이 이루어질 수 있게 서비스를 제공하는 소프트웨어는?",
+        "options": {
+            "opt_1": "미들웨어",
+            "opt_2": "하드웨어",
+            "opt_3": "오픈허브웨어",
+            "opt_4": "그레이웨어"
+        }
+    },
+    {
+        "id": 11,
+        "image": null,
+        "answer": 3,
+        "question": "CASE(Computer Aided Software Engineering)에 대한 설명 으로 틀린 것은?",
+        "options": {
+            "opt_1": "소프트웨어 모듈의 재사용성이 향상된다.",
+            "opt_2": "자동화된 기법을 통해 소프트웨어 품질이 향상된다.",
+            "opt_3": "소프트웨어 사용자들에게 사용 방법을 신속히 숙지시키 기 위해 사용된다.",
+            "opt_4": "소프트웨어 유지보수를 간편하게 수행할 수 있다."
+        }
+    },
+    {
+        "id": 12,
+        "image": null,
+        "answer": 4,
+        "question": "UML(Unified Modeling Language)에 대한 설명 중 틀린 것 은?",
+        "options": {
+            "opt_1": "기능적 모델은 사용자 측면에서 본 시스템 기능이며, UML에서는 Use case Diagram을 사용한다.",
+            "opt_2": "정적 모델은 객체, 속성, 연관관계, 오퍼레이션의 시스템 의 구조를 나타내며, UML에서는 Class Diagram을 사용 한다.",
+            "opt_3": "동적 모델은 시스템의 내부 동작을 말하며, UML에서는 Sequence Diagram, State Diagram, Activity Diagram을 사용한다.",
+            "opt_4": "State Diagram은 객체들 사이의 메시지 교환을 나타내 며, Sequence Diagram은 하나의 객체가 가진 상태와 그 상태의 변화에 의한 동작순서를 나타낸다."
+        }
+    },
+    {
+        "id": 13,
+        "image": null,
+        "answer": 2,
+        "question": "기본 유스케이스 수행 시 특별한 조건을 만족할 때 수행하 는 유스케이스는?",
+        "options": {
+            "opt_1": "연관",
+            "opt_2": "확장",
+            "opt_3": "선택",
+            "opt_4": "특화"
+        }
+    },
+    {
+        "id": 14,
+        "image": null,
+        "answer": 4,
+        "question": "다음 중 요구사항 모델링에 활용되지 않는 것은?",
+        "options": {
+            "opt_1": "애자일(Agile) 방법",
+            "opt_2": "유스케이스 다이어그램(Use Case Diagram)",
+            "opt_3": "시퀀스 다이어그램(Sequence Diagram)",
+            "opt_4": "단계 다이어그램(Phase Diagram)"
+        }
+    },
+    {
+        "id": 15,
+        "image": null,
+        "answer": 2,
+        "question": "디자인 패턴을 이용한 소프트웨어 재사용으로 얻어지는 장 점이 아닌 것은?",
+        "options": {
+            "opt_1": "소프트웨어 코드의 품질을 향상시킬 수 있다.",
+            "opt_2": "개발 프로세스를 무시할 수 있다.",
+            "opt_3": "개발자들 사이의 의사소통을 원활하게 할 수 있다.",
+            "opt_4": "소프트웨어의 품질과 생산성을 향상시킬 수 있다."
+        }
+    },
+    {
+        "id": 16,
+        "image": null,
+        "answer": 1,
+        "question": "럼바우(Rumbaugh) 분석기법에서 정보모델링이라고도 하며, 시스템에서 요구되는 객체를 찾아내어 속성과 연산 식별 및 객체들 간의 관계를 규정하여 다이어그램을 표시하는 모델 링은?",
+        "options": {
+            "opt_1": "Object",
+            "opt_2": "Dynamic",
+            "opt_3": "Function",
+            "opt_4": "Static"
+        }
+    },
+    {
+        "id": 17,
+        "image": null,
+        "answer": 1,
+        "question": "소프트웨어를 개발하기 위한 비즈니스(업무)를 객체와 속성, 클래스와 멤버, 전체와 부분 등으로 나누어서 분석해 내는 기법은?",
+        "options": {
+            "opt_1": "객체지향 분석",
+            "opt_2": "구조적 분석",
+            "opt_3": "기능적 분석",
+            "opt_4": "실시간 분석"
+        }
+    },
+    {
+        "id": 18,
+        "image": null,
+        "answer": 3,
+        "question": "애자일 소프트웨어 개발 기법의 가치가 아닌 것은?",
+        "options": {
+            "opt_1": "프로세스의 도구보다는 개인과 상호작용에 더 가치를 둔 다.",
+            "opt_2": "계약 협상보다는 고객과의 협업에 더 가치를 둔다.",
+            "opt_3": "실제 작동하는 소프트웨어보다는 이해하기 좋은 문서에 더 가치를 둔다.",
+            "opt_4": "계획을 따르기보다는 변화에 대응하는 것에 더 가치를 둔다."
+        }
+    },
+    {
+        "id": 19,
+        "image": null,
+        "answer": 4,
+        "question": "UML 다이어그램 중 시스템 내 클래스의 정적 구조를 표현 하고 클래스와 클래스, 클래스의 속성 사이의 관계를 나타 내는 것은?",
+        "options": {
+            "opt_1": "Activity Diagram",
+            "opt_2": "Modea Diagram",
+            "opt_3": "State Diagram",
+            "opt_4": "Class Diagram"
+        }
+    },
+    {
+        "id": 20,
+        "image": null,
+        "answer": 4,
+        "question": "소프트웨어 설계시 제일 상위에 있는 main user function에 서 시작하여 기능을 하위 기능들로 분할해 가면서 설계하는 방식은?",
+        "options": {
+            "opt_1": "객체 지향 설계",
+            "opt_2": "데이터 흐름 설계",
+            "opt_3": "상향식 설계",
+            "opt_4": "하향식 설계"
+        }
+    },
+    {
+        "id": 21,
+        "image": "images\\q_img_202103_1_0_0.png",
+        "answer": 2,
+        "question": "구현 단계에서의 작업 절차를 순서에 맞게 나열한 것은?",
+        "options": {
+            "opt_1": "㉠-㉡-㉢-㉣",
+            "opt_2": "㉡-㉠-㉣-㉢",
+            "opt_3": "㉢-㉠-㉡-㉣",
+            "opt_4": "㉣-㉡-㉠-㉢"
+        }
+    },
+    {
+        "id": 22,
+        "image": "images\\q_img_202103_1_0_1.png",
+        "answer": 1,
+        "question": "다음 자료에 대하여 “Selection Sort”를 사용하여 오름차순 으로 정렬한 경우 PASS 3의 결과는?",
+        "options": {
+            "opt_1": "3, 4, 7, 9, 8",
+            "opt_2": "3, 4, 8, 9, 7",
+            "opt_3": "3, 8, 4, 9, 7",
+            "opt_4": "3, 4, 7, 8, 9"
+        }
+    },
+    {
+        "id": 23,
+        "image": null,
+        "answer": 1,
+        "question": "하향식 통합시험을 위해 일시적으로 필요한 조건만을 가지 고 임시로 제공되는 시험용 모듈은?",
+        "options": {
+            "opt_1": "Stub",
+            "opt_2": "Driver",
+            "opt_3": "Procedure",
+            "opt_4": "Function"
+        }
+    },
+    {
+        "id": 24,
+        "image": "images\\q_img_202103_1_1_0.png",
+        "answer": 4,
+        "question": "다음 전위식(prefix)을 후위식(postfix)으로 옳게 표현한 것 은?",
+        "options": {
+            "opt_1": "A B C + D / * E -",
+            "opt_2": "A B * C D / + E -",
+            "opt_3": "A B * C + D / E -",
+            "opt_4": "A B C + * D / E -"
+        }
+    },
+    {
+        "id": 25,
+        "image": null,
+        "answer": 1,
+        "question": "그래프의 특수한 형태로 노드(Node)와 선분(Branch)으로 되 어 있고, 정점 사이에 사이클(Cycle)이 형성되어 있지 않으 며, 자료 사이의 관계성이 계층 형식으로 나타나는 비선형 구조는?",
+        "options": {
+            "opt_1": "tree",
+            "opt_2": "network",
+            "opt_3": "stack",
+            "opt_4": "distributed"
+        }
+    },
+    {
+        "id": 26,
+        "image": null,
+        "answer": 2,
+        "question": "스택에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "입출력이 한쪽 끝으로만 제한된 리스트이다.",
+            "opt_2": "Head(front)와 Tail(rear)의 2개 포인터를 갖고 있다.",
+            "opt_3": "LIFO 구조이다.",
+            "opt_4": "더 이상 삭제할 데이터가 없는 상태에서 데이터를 삭제 하면 언더플로(Underflow)가 발생한다."
+        }
+    },
+    {
+        "id": 27,
+        "image": null,
+        "answer": 2,
+        "question": "디지털 저작권 관리(DRM)에 사용되는 기술요소가 아닌 것 은?",
+        "options": {
+            "opt_1": "키관리",
+            "opt_2": "방화벽",
+            "opt_3": "암호화",
+            "opt_4": "크랙방지"
+        }
+    },
+    {
+        "id": 28,
+        "image": null,
+        "answer": 3,
+        "question": "여러 개의 선택 항목 중 하나의 선택만 가능한 경우 사용하 는 사용자 인터페이스(UI)요소는?",
+        "options": {
+            "opt_1": "토글 버튼",
+            "opt_2": "텍스트 박스",
+            "opt_3": "라디오 버튼",
+            "opt_4": "체크 박스"
+        }
+    },
+    {
+        "id": 29,
+        "image": null,
+        "answer": 4,
+        "question": "소프트웨어의 일부분을 다른 시스템에서 사용할 수 있는 정 도를 의미하는 것은?",
+        "options": {
+            "opt_1": "신뢰성(Reliability)",
+            "opt_2": "유지보수성(Maintainability)",
+            "opt_3": "가시성(Visibility)",
+            "opt_4": "재사용성(Reusability)"
+        }
+    },
+    {
+        "id": 30,
+        "image": null,
+        "answer": 1,
+        "question": "자료구조에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "큐는 비선형구조에 해당한다.",
+            "opt_2": "큐는 First In – First Out 처리를 수행한다.",
+            "opt_3": "스택은 Last In – First out 처리를 수행한다.",
+            "opt_4": "스택은 서브루틴 호출, 인터럽트 처리, 수식 계산 및 수 식 표기법에 응용된다."
+        }
+    },
+    {
+        "id": 31,
+        "image": null,
+        "answer": 1,
+        "question": "다음 중 블랙박스 검사 기법은?",
+        "options": {
+            "opt_1": "경계값 분석",
+            "opt_2": "조건 검사",
+            "opt_3": "기초 경로 검사",
+            "opt_4": "루프 검사"
+        }
+    },
+    {
+        "id": 32,
+        "image": null,
+        "answer": 3,
+        "question": "이진 검색 알고리즘에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "탐색 효율이 좋고 탐색 시간이 적게 소요된다.",
+            "opt_2": "검색할 데이터가 정렬되어 있어야 한다.",
+            "opt_3": "피보나치 수열에 따라 다음에 비교할 대상을 선정하여 검색한다.",
+            "opt_4": "비교횟수를 거듭할 때마다 검색 대상이 되는 데이터의 수가 절반으로 줄어든다."
+        }
+    },
+    {
+        "id": 33,
+        "image": null,
+        "answer": 3,
+        "question": "소프트웨어 품질목표 중 쉽게 배우고 사용할 수 있는 정도 를 나타내는 것은?",
+        "options": {
+            "opt_1": "Correctness",
+            "opt_2": "Reliability",
+            "opt_3": "Usability",
+            "opt_4": "Integrity"
+        }
+    },
+    {
+        "id": 34,
+        "image": null,
+        "answer": 3,
+        "question": "테스트 케이스에 일반적으로 포함되는 항목이 아닌 것은?",
+        "options": {
+            "opt_1": "테스트 조건",
+            "opt_2": "테스트 데이터",
+            "opt_3": "테스트 비용",
+            "opt_4": "예상 결과"
+        }
+    },
+    {
+        "id": 35,
+        "image": null,
+        "answer": 4,
+        "question": "소프트웨어 설치 매뉴얼에 포함될 항목이 아닌 것은?",
+        "options": {
+            "opt_1": "제품 소프트웨어 개요",
+            "opt_2": "설치 관련 파일",
+            "opt_3": "프로그램 삭제",
+            "opt_4": "소프트웨어 개발 기간"
+        }
+    },
+    {
+        "id": 36,
+        "image": null,
+        "answer": 3,
+        "question": "소프트웨어 형상관리(Configuration management)에 관한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "소프트웨어에서 일어나는 수정이나 변경을 알아내고 제 어하는 것을 의미한다.",
+            "opt_2": "소프트웨어 개발의 전체 비용을 줄이고, 개발 과정의 여 러 방해 요인이 최소화되도록 보증하는 것을 목적으로 한다.",
+            "opt_3": "형상관리를 위하여 구성된 팀을 “chief programmer team”이라고 한다.",
+            "opt_4": "형상관리의 기능 중 하나는 버전 제어 기술이다."
+        }
+    },
+    {
+        "id": 37,
+        "image": null,
+        "answer": 3,
+        "question": "퀵 정렬에 관한 설명으로 옳은 것은?",
+        "options": {
+            "opt_1": "레코드의 키 값을 분석하여 같은 값끼리 그 순서에 맞는 버킷에 분배하였다가 버킷의 순서대로 레코드를 꺼내어 정렬한다.",
+            "opt_2": "주어진 파일에서 인접한 두 개의 레코드 키 값을 비교하 여 그 크기에 따라 레코드 위치를 서로 교환한다.",
+            "opt_3": "레코드의 많은 자료 이동을 없애고 하나의 파일을 부분 적으로 나누어 가면서 정렬한다.",
+            "opt_4": "임의의 레코드 키와 매개변수(h)값만큼 떨어진 곳의 레 코드 키를 비교하여 서로 교환해 가면서 정렬한다."
+        }
+    },
+    {
+        "id": 38,
+        "image": null,
+        "answer": 3,
+        "question": "해싱 함수(Hashing Function)의 종류가 아닌 것은?",
+        "options": {
+            "opt_1": "제곱법(mid-square)",
+            "opt_2": "숫자분석법(digit analysis)",
+            "opt_3": "개방주소법(open addressing)",
+            "opt_4": "제산법(division)"
+        }
+    },
+    {
+        "id": 39,
+        "image": null,
+        "answer": 1,
+        "question": "필드 테스팅(field testing)이라고도 불리며 개발자 없이 고 객의 사용 환경에 소프트웨어를 설치하여 검사를 수행하는 인수검사 기법은?",
+        "options": {
+            "opt_1": "베타 검사",
+            "opt_2": "알파 검사",
+            "opt_3": "형상 검사",
+            "opt_4": "복구 검사"
+        }
+    },
+    {
+        "id": 40,
+        "image": "images\\q_img_202103_2_1_0.png",
+        "answer": 2,
+        "question": "다음 트리를 Preorder 운행법으로 운행할 경우 다섯 번째로 탐색되는 것은?",
+        "options": {
+            "opt_1": "C",
+            "opt_2": "E",
+            "opt_3": "G",
+            "opt_4": "H"
+        }
+    },
+    {
+        "id": 41,
+        "image": "images\\q_img_202103_2_1_1.png",
+        "answer": 1,
+        "question": "결과 값이 아래와 같을 때 SQL 질의로 옳은 것은?",
+        "options": {
+            "opt_1": "SELECT * FROM 공급자 WHERE 공급자명 LIKE '%신%';",
+            "opt_2": "SELECT * FROM 공급자 WHERE 공급자명 LIKE '%대%';",
+            "opt_3": "SELECT * FROM 공급자 WHERE 공급자명 LIKE '%사%';",
+            "opt_4": "SELECT * FROM 공급자 WHERE 공급자명 IS NOT NULL;"
+        }
+    },
+    {
+        "id": 42,
+        "image": "images\\q_img_202103_2_1_2.png",
+        "answer": 1,
+        "question": "다음에서 설명하는 스키마(Schema)는?",
+        "options": {
+            "opt_1": "개념 스키마",
+            "opt_2": "내부 스키마",
+            "opt_3": "외부 스키마",
+            "opt_4": "내용 스키마"
+        }
+    },
+    {
+        "id": 43,
+        "image": null,
+        "answer": 4,
+        "question": "데이터베이스 설계 단계 중 저장 레코드 양식설계, 레코드 집중의 분석 및 설계, 접근 경로 설계와 관계되는 것은?",
+        "options": {
+            "opt_1": "논리적 설계",
+            "opt_2": "요구 조건 분석",
+            "opt_3": "개념적 설계",
+            "opt_4": "물리적 설계"
+        }
+    },
+    {
+        "id": 44,
+        "image": "images\\q_img_202103_3_0_0.png",
+        "answer": 2,
+        "question": "다음 릴레이션의 카디널리티와 차수가 옳게 나타낸 것은?",
+        "options": {
+            "opt_1": "카디널리티 : 4, 차수 : 4",
+            "opt_2": "카디널리티 : 4, 차수 : 6",
+            "opt_3": "카디널리티 : 6, 차수 : 4",
+            "opt_4": "카디널리티 : 6, 차수 : 6"
+        }
+    },
+    {
+        "id": 45,
+        "image": "images\\q_img_202103_3_0_1.png",
+        "answer": 2,
+        "question": "다음과 같은 트랜잭션의 특성은?",
+        "options": {
+            "opt_1": "원자성(atomicity)",
+            "opt_2": "일관성(consistency)",
+            "opt_3": "격리성(isolation)",
+            "opt_4": "영속성(durability)"
+        }
+    },
+    {
+        "id": 46,
+        "image": null,
+        "answer": 4,
+        "question": "병행제어의 로킹(Locking) 단위에 대한 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "데이터베이스, 파일, 레코드 등은 로킹 단위가 될 수 있다.",
+            "opt_2": "로킹 단위가 작아지면 로킹 오버헤드가 증가한다.",
+            "opt_3": "한꺼번에 로킹할 수 있는 단위를 로킹단위라고 한다.",
+            "opt_4": "로킹 단위가 작아지면 병행성 수준이 낮아진다."
+        }
+    },
+    {
+        "id": 47,
+        "image": null,
+        "answer": 3,
+        "question": "뷰(VIEW)에 대한 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "DBA는 보안 측면에서 뷰를 활용할 수 있다.",
+            "opt_2": "뷰 위에 또 다른 뷰를 정의할 수 있다.",
+            "opt_3": "뷰에 대한 삽입, 갱신, 삭제 연산 시 제약사항이 따르지 않는다.",
+            "opt_4": "독립적인 인덱스를 가질 수 없다."
+        }
+    },
+    {
+        "id": 48,
+        "image": "images\\q_img_202103_3_0_2.png",
+        "answer": 1,
+        "question": "다음 정의에서 말하는 기본 정규형은?",
+        "options": {
+            "opt_1": "제1정규형(1NF)",
+            "opt_2": "제2정규형(2NF)",
+            "opt_3": "제3정규형(3NF)",
+            "opt_4": "보이스/코드 정규형(BCNF)"
+        }
+    },
+    {
+        "id": 49,
+        "image": null,
+        "answer": 4,
+        "question": "릴레이션 R1에 속한 애튜리뷰트의 조합인 외래키를 변경하 려면 이를 참조하고 있는 릴레이션 R2의 기본키도 변경해야 하는데 이를 무엇이라 하는가?",
+        "options": {
+            "opt_1": "정보 무결성",
+            "opt_2": "고유 무결성",
+            "opt_3": "널 제약성",
+            "opt_4": "참조 무결성"
+        }
+    },
+    {
+        "id": 50,
+        "image": null,
+        "answer": 1,
+        "question": "시스템 카탈로그에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "시스템 카탈로그의 갱신은 무결성 유지를 위하여 SQL을 이용하여 사용자가 직접 갱신하여야 한다.",
+            "opt_2": "데이터베이스에 포함되는 데이터 객체에 대한 정의나 명 세에 대한 정보를 유지관리한다.",
+            "opt_3": "DBMS가 스스로 생성하고 유지하는 데이터베이스 내의 특별한 테이블의 집합체이다.",
+            "opt_4": "카탈로그에 저장된 정보를 메타 데이터라고도 한다."
+        }
+    },
+    {
+        "id": 51,
+        "image": null,
+        "answer": 1,
+        "question": "조건을 만족하는 릴레이션의 수평적 부분집합으로 구성하 며, 연산자의 기호는 그리스 문자 시그마(σ)를 사용하는 관 계대수 연산은?",
+        "options": {
+            "opt_1": "Select",
+            "opt_2": "Project",
+            "opt_3": "Join",
+            "opt_4": "Division"
+        }
+    },
+    {
+        "id": 52,
+        "image": null,
+        "answer": 2,
+        "question": "SQL에서 스키마(schema), 도메인(domain), 테이블(table), 뷰(view), 인덱스(index)를 정의하거나 변경 또는 삭제할 때 사용하는 언어는?",
+        "options": {
+            "opt_1": "DML(Data Manipulation Language)",
+            "opt_2": "DDL(Data Definition Language)",
+            "opt_3": "DCL(Data Control Language)",
+            "opt_4": "IDL(Interactive Data Language)"
+        }
+    },
+    {
+        "id": 53,
+        "image": null,
+        "answer": 4,
+        "question": "정규화를 거치지 않아 발생하게 되는 이상(anomaly) 현상의 종류에 대한 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "삭제 이상이란 릴레이션에서 한 튜플을 삭제할 때 의도 와는 상관없는 값들도 함께 삭제되는 연쇄 삭제 현상이 다.",
+            "opt_2": "삽입 이상이란 릴레이션에서 데이터를 삽입할 때 의도와 는 상관없이 원하지 않는 값들도 함께 삽입되는 현상이 다.",
+            "opt_3": "갱신 이상이란 릴레이션에서 튜플에 있는 속성값을 갱신 할 때 일부 튜플의 정보만 갱신되어 정보에 모순이 생기 는 현상이다.",
+            "opt_4": "종속 이상이란 하나의 릴레이션에 하나 이상의 함수적 종속성이 존재하는 현상이다."
+        }
+    },
+    {
+        "id": 54,
+        "image": null,
+        "answer": 3,
+        "question": "관계 데이터 모델에서 릴레이션(relation)에 관한 설명으로 옳은 것은?",
+        "options": {
+            "opt_1": "릴레이션의 각 행을 스키마(schema)라 하며, 예로 도서 릴레이션을 구성하는 스키마에서는 도서번호, 도서명, 저 자, 가격 등이 있다.",
+            "opt_2": "릴레이션의 각 열을 튜플(tuple)이라 하며, 하나의 튜플 은 각 속성에서 정의된 값을 이용하여 구성된다.",
+            "opt_3": "도메인(domain)은 하나의 속성이 가질 수 있는 같은 타 입의 모든 값의 집합으로 각 속성의 도메인은 원자값을 갖는다.",
+            "opt_4": "속성(attribute)은 한 개의 릴레이션의 논리적인 구조를 정의한 것으로 릴레이션의 이름과 릴레이션에 포함된 속 성들의 집합을 의미한다."
+        }
+    },
+    {
+        "id": 55,
+        "image": null,
+        "answer": 4,
+        "question": "3NF에서 BCNF가 되기 위한 조건은?",
+        "options": {
+            "opt_1": "이행적 함수 종속 제거",
+            "opt_2": "부분적 함수 종속 제거",
+            "opt_3": "다치 종속 제거",
+            "opt_4": "결정자이면서 후보 키가 아닌 것 제거"
+        }
+    },
+    {
+        "id": 56,
+        "image": null,
+        "answer": 1,
+        "question": "데이터베이스 성능에 많은 영향을 주는 DBMS의 구성 요소 로 테이블과 클러스터에 연관되어 독립적인 저장 공간을 보 유하며, 데이터베이스에 저장된 자료를 더욱 빠르게 조회하 기 위하여 사용되는 것은?",
+        "options": {
+            "opt_1": "인덱스(Index)",
+            "opt_2": "트랜잭션(Transaction)",
+            "opt_3": "역정규화(Denormalization)",
+            "opt_4": "트리거(Trigger)"
+        }
+    },
+    {
+        "id": 57,
+        "image": "images\\q_img_202103_4_0_4.png",
+        "answer": 2,
+        "question": "아래의 SQL문을 실행한 결과는?",
+        "options": {
+            "opt_1": "",
+            "opt_2": "",
+            "opt_3": "",
+            "opt_4": ""
+        }
+    },
+    {
+        "id": 58,
+        "image": null,
+        "answer": 3,
+        "question": "『회원』테이블 생성 후 『주소』 필드(컬럼)가 누락되어 이 를 추가하려고 한다. 이에 적합한 SQL명령어는?",
+        "options": {
+            "opt_1": "DELETE",
+            "opt_2": "RESTORE",
+            "opt_3": "ALTER",
+            "opt_4": "ACCESS"
+        }
+    },
+    {
+        "id": 59,
+        "image": null,
+        "answer": 1,
+        "question": "트랜잭션을 수행하는 도중 장애로 인해 손상된 데이터베이 스를 손상되기 이전에 정상적인 상태로 복구시키는 작업은?",
+        "options": {
+            "opt_1": "Recovery",
+            "opt_2": "Commit",
+            "opt_3": "Abort",
+            "opt_4": "Restart"
+        }
+    },
+    {
+        "id": 60,
+        "image": null,
+        "answer": 3,
+        "question": "E-R 다이어그램의 표기법으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "개체타입 - 사각형",
+            "opt_2": "속성 - 타원",
+            "opt_3": "관계집합 - 삼각형",
+            "opt_4": "개체타입과 속성을 연결 – 선"
+        }
+    },
+    {
+        "id": 61,
+        "image": null,
+        "answer": 2,
+        "question": "다음 중 응집도가 가장 높은 것은?",
+        "options": {
+            "opt_1": "절차적 응집도",
+            "opt_2": "순차적 응집도",
+            "opt_3": "우연적 응집도",
+            "opt_4": "논리적 응집도"
+        }
+    },
+    {
+        "id": 62,
+        "image": null,
+        "answer": 1,
+        "question": "OSI 7계층에서 물리적 연결을 이용해 신뢰성 있는 정보를 전송하려고 동기화, 오류제어, 흐름제어 등의 전송에러를 제 어하는 계층은?",
+        "options": {
+            "opt_1": "데이터 링크 계층",
+            "opt_2": "물리 계층",
+            "opt_3": "응용 계층",
+            "opt_4": "표현 계층"
+        }
+    },
+    {
+        "id": 63,
+        "image": null,
+        "answer": 2,
+        "question": "운영체제를 기능에 따라 분류할 경우 제어 프로그램이 아닌 것은?",
+        "options": {
+            "opt_1": "데이터 관리 프로그램",
+            "opt_2": "서비스 프로그램",
+            "opt_3": "작업 제어 프로그램",
+            "opt_4": "감시 프로그램"
+        }
+    },
+    {
+        "id": 64,
+        "image": null,
+        "answer": 1,
+        "question": "IEEE 802.3 LAN에서 사용되는 전송매체 접속제어(MAC) 방 식은?",
+        "options": {
+            "opt_1": "CSMA/CD",
+            "opt_2": "Token Bus",
+            "opt_3": "Token Ring",
+            "opt_4": "Slotted Ring"
+        }
+    },
+    {
+        "id": 65,
+        "image": null,
+        "answer": 2,
+        "question": "기억공간이 15K, 23K, 22K, 21K 순으로 빈 공간이 있을 때 기억장치 배치 전력으로 “First Fit”을 사용하여 17K의 프로 그램을 적재할 경우 내부단편화의 크기는 얼마인가?",
+        "options": {
+            "opt_1": "5K",
+            "opt_2": "6K",
+            "opt_3": "7K",
+            "opt_4": "8K"
+        }
+    },
+    {
+        "id": 66,
+        "image": null,
+        "answer": 4,
+        "question": "교착상태가 발생할 수 있는 조건이 아닌 것은?",
+        "options": {
+            "opt_1": "Mutual exclusion",
+            "opt_2": "Hold and wait",
+            "opt_3": "Non-preemption",
+            "opt_4": "Linear wait"
+        }
+    },
+    {
+        "id": 67,
+        "image": null,
+        "answer": 1,
+        "question": "IPv6에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "멀티캐스팅(Multicast) 대신 브로드캐스트(Broadcast)를 사용한다.",
+            "opt_2": "보안과 인증 확장 헤더를 사용함으로써 인터넷 계층의 보안기능을 강화하였다.",
+            "opt_3": "애니캐스트(Anycast)는 하나의 호스트에서 그룹 내의 가 장 가까운 곳에 있는 수신자에게 전달하는 방식이다.",
+            "opt_4": "128비트 주소체계를 사용한다."
+        }
+    },
+    {
+        "id": 68,
+        "image": null,
+        "answer": 3,
+        "question": "TCP/IP 프로토콜에서 TCP가 해당하는 계층은?",
+        "options": {
+            "opt_1": "데이터 링크 계층",
+            "opt_2": "네트워크 계층",
+            "opt_3": "트랜스포트 계층",
+            "opt_4": "세션 계층"
+        }
+    },
+    {
+        "id": 69,
+        "image": null,
+        "answer": 4,
+        "question": "C언어에서 변수로 사용할 수 없는 것은?",
+        "options": {
+            "opt_1": "data02",
+            "opt_2": "int01",
+            "opt_3": "_sub",
+            "opt_4": "short"
+        }
+    },
+    {
+        "id": 70,
+        "image": "images\\q_img_202103_5_0_0.png",
+        "answer": 4,
+        "question": "다음 JAVA 코드 출력문의 결과는?",
+        "options": {
+            "opt_1": "5 + 2 = 34<chal>5 + 2 = 34",
+            "opt_2": "5 + 2 + 3 + 4<chal>5 + 2 = 7",
+            "opt_3": "7 = 7<chal>7 + 7",
+            "opt_4": "5 + 2 = 34<chal>5 + 2 = 7"
+        }
+    },
+    {
+        "id": 71,
+        "image": null,
+        "answer": 1,
+        "question": "C언어에서 문자열을 정수형으로 변환하는 라이브러리 함수 는?",
+        "options": {
+            "opt_1": "atoi( )",
+            "opt_2": "atof( )",
+            "opt_3": "itoa( )",
+            "opt_4": "ceil( )"
+        }
+    },
+    {
+        "id": 72,
+        "image": null,
+        "answer": 4,
+        "question": "운영체제의 가상기억장치 관리에서 프로세스가 일정 시간동 안 자주 참조하는 페이지들의 집합을 의미하는 것은?",
+        "options": {
+            "opt_1": "Locality",
+            "opt_2": "Deadlock",
+            "opt_3": "Thrashing",
+            "opt_4": "Working Set"
+        }
+    },
+    {
+        "id": 73,
+        "image": "images\\q_img_202103_5_0_1.png",
+        "answer": 3,
+        "question": "결합도가 낮은 것부터 높은 순으로 옳게 나열한 것은?",
+        "options": {
+            "opt_1": "(ㄱ) → (ㄴ) → (ㄹ) → (ㅂ) → (ㅁ) → (ㄷ)",
+            "opt_2": "(ㄴ) → (ㄹ) → (ㅁ) → (ㅂ) → (ㄷ) → (ㄱ)",
+            "opt_3": "(ㄴ) → (ㄹ) → (ㅂ) → (ㅁ) → (ㄷ) → (ㄱ)",
+            "opt_4": "(ㄱ) → (ㄴ) → (ㄹ) → (ㅁ) → (ㅂ) → (ㄷ)"
+        }
+    },
+    {
+        "id": 74,
+        "image": "images\\q_img_202103_5_0_2.png",
+        "answer": 1,
+        "question": "다음 설명의 ㉠과 ㉡에 들어갈 내용으로 옳은 것은?",
+        "options": {
+            "opt_1": "㉠ : Paging, ㉡ : Segmentation",
+            "opt_2": "㉠ : Segmentation, ㉡ : Allocation",
+            "opt_3": "㉠ : Segmentation, ㉡ : Compaction",
+            "opt_4": "㉠ : Paging, ㉡ : Linking"
+        }
+    },
+    {
+        "id": 75,
+        "image": null,
+        "answer": 3,
+        "question": "라이브러리의 개념과 구성에 대한 설명 중 틀린 것은?",
+        "options": {
+            "opt_1": "라이브러리란 필요할 때 찾아서 쓸 수 있도록 모듈화되 어 제공되는 프로그램을 말한다.",
+            "opt_2": "프로그래밍 언어에 따라 일반적으로 도움말, 설치 파일, 샘플 코드 등을 제공한다.",
+            "opt_3": "외부 라이브러리는 프로그래밍 언어가 기본적으로 가지 고 있는 라이브러리를 의미하며, 표준 라이브러리는 별도의 파일 설치를 필요로 하는 라이브러리를 의미한다.",
+            "opt_4": "라이브러리는 모듈과 패키지를 총칭하며, 모듈이 개별 파일이라면 패키지는 파일들을 모아 놓은 폴더라고 볼 수 있다."
+        }
+    },
+    {
+        "id": 76,
+        "image": null,
+        "answer": 4,
+        "question": "C언어에서 산술 연산자가 아닌 것은?",
+        "options": {
+            "opt_1": "%",
+            "opt_2": "*",
+            "opt_3": "/",
+            "opt_4": "="
+        }
+    },
+    {
+        "id": 77,
+        "image": null,
+        "answer": 4,
+        "question": "UDP 특성에 해당되는 것은?",
+        "options": {
+            "opt_1": "양방향 연결형 서비스를 제공한다.",
+            "opt_2": "송신중에 링크를 유지관리하므로 신뢰성이 높다.",
+            "opt_3": "순서제어, 오류제어, 흐름제어 기능을 한다.",
+            "opt_4": "흐름제어나 순서제어가 없어 전송속도가 빠르다."
+        }
+    },
+    {
+        "id": 78,
+        "image": null,
+        "answer": 3,
+        "question": "JAVA에서 변수와 자료형에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "변수는 어떤 값을 주기억 장치에 기억하기 위해서 사용 하는 공간이다.",
+            "opt_2": "변수의 자료형에 따라 저장할 수 있는 값의 종류와 범위 가 달라진다.",
+            "opt_3": "char 자료형은 나열된 여러 개의 문자를 저장하고자 할 때 사용한다.",
+            "opt_4": "boolean 자료형은 조건이 참인지 거짓인지 판단하고자 할 때 사용한다."
+        }
+    },
+    {
+        "id": 79,
+        "image": "images\\q_img_202103_5_1_0.png",
+        "answer": 1,
+        "question": "다음은 파이썬으로 만들어진 반복문 코드이다. 이 코드의 결과는?",
+        "options": {
+            "opt_1": "A, B, C 출력이 반복된다.",
+            "opt_2": "A, B, C 까지만 출력된다.",
+            "opt_3": "A, B, C, D 출력이 반복된다.",
+            "opt_4": "A, B, C, D 까지만 출력된다."
+        }
+    },
+    {
+        "id": 80,
+        "image": null,
+        "answer": 2,
+        "question": "WAS(Web Application Server)가 아닌 것은?",
+        "options": {
+            "opt_1": "JEUS",
+            "opt_2": "JVM",
+            "opt_3": "Tomcat",
+            "opt_4": "WebSphere"
+        }
+    },
+    {
+        "id": 81,
+        "image": null,
+        "answer": 4,
+        "question": "다음 암호 알고리즘 중 성격이 다른 하나는?",
+        "options": {
+            "opt_1": "MD4",
+            "opt_2": "MD5",
+            "opt_3": "SHA-1",
+            "opt_4": "AES"
+        }
+    },
+    {
+        "id": 82,
+        "image": null,
+        "answer": 1,
+        "question": "크래커가 침입하여 백도어를 만들어 놓거나, 설정파일을 변 경했을 때 분석하는 도구는?",
+        "options": {
+            "opt_1": "tripwire",
+            "opt_2": "tcpdump",
+            "opt_3": "cron",
+            "opt_4": "netcat"
+        }
+    },
+    {
+        "id": 83,
+        "image": "images\\q_img_202103_6_0_0.png",
+        "answer": 4,
+        "question": "다음 내용이 설명하는 것은?",
+        "options": {
+            "opt_1": "GRID",
+            "opt_2": "TELNET",
+            "opt_3": "GPN",
+            "opt_4": "MQTT"
+        }
+    },
+    {
+        "id": 84,
+        "image": null,
+        "answer": 1,
+        "question": "나선형(Spiral) 모형의 주요 태스크에 해당되지 않는 것은?",
+        "options": {
+            "opt_1": "버전 관리",
+            "opt_2": "위험 분석",
+            "opt_3": "개발",
+            "opt_4": "평가"
+        }
+    },
+    {
+        "id": 85,
+        "image": null,
+        "answer": 2,
+        "question": "정보 보안을 위한 접근통제 정책 종류에 해당하지 않는 것 은?",
+        "options": {
+            "opt_1": "임의적 접근 통제",
+            "opt_2": "데이터 전환 접근 통제",
+            "opt_3": "강제적 접근 통제",
+            "opt_4": "역할 기반 접근 통제"
+        }
+    },
+    {
+        "id": 86,
+        "image": null,
+        "answer": 4,
+        "question": "LOC기법에 의하여 예측된 총 라인수가 36,000라인, 개발에 참여할 프로그래머가 6명, 프로그래머들의 평균 생산성이 월간 300라인일 때 개발에 소요되는 기간은?",
+        "options": {
+            "opt_1": "5개월",
+            "opt_2": "10개월",
+            "opt_3": "15개월",
+            "opt_4": "20개월"
+        }
+    },
+    {
+        "id": 87,
+        "image": null,
+        "answer": 1,
+        "question": "정형화된 분석 절차에 따라 사용자 요구사항을 파악, 문서 화하는 체계적 분석방법으로 자료흐름도, 자료사전, 소단위 명세서의 특징을 갖는 것은?",
+        "options": {
+            "opt_1": "구조적 개발 방법론",
+            "opt_2": "객체지향 개발 방법론",
+            "opt_3": "정보공학 방법론",
+            "opt_4": "CBD 방법론"
+        }
+    },
+    {
+        "id": 88,
+        "image": null,
+        "answer": 3,
+        "question": "정보보호를 위한 암호화에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "평문 – 암호화되기 전의 원본 메시지",
+            "opt_2": "암호문 – 암호화가 적용된 메시지",
+            "opt_3": "복호화 – 평문을 암호문으로 바꾸는 작업",
+            "opt_4": "키(Key) - 적절한 암호화를 위하여 사용하는 값"
+        }
+    },
+    {
+        "id": 89,
+        "image": "images\\q_img_202103_6_0_1.png",
+        "answer": 2,
+        "question": "다음 내용이 설명하는 것은?",
+        "options": {
+            "opt_1": "OTT",
+            "opt_2": "Baas",
+            "opt_3": "SDDC",
+            "opt_4": "Wi-SUN"
+        }
+    },
+    {
+        "id": 90,
+        "image": null,
+        "answer": 2,
+        "question": "소프트웨어 비용 산정 기법 중 개발 유형으로 organic, semi-detach, embedded로 구분되는 것은?",
+        "options": {
+            "opt_1": "PUTNAM",
+            "opt_2": "COCOMO",
+            "opt_3": "FP",
+            "opt_4": "SLIM"
+        }
+    },
+    {
+        "id": 91,
+        "image": "images\\q_img_202103_6_1_0.png",
+        "answer": 3,
+        "question": "다음 LAN의 네트워크 토폴로지는 어떤 형인가?",
+        "options": {
+            "opt_1": "그물형",
+            "opt_2": "십자형",
+            "opt_3": "버스형",
+            "opt_4": "링형"
+        }
+    },
+    {
+        "id": 92,
+        "image": null,
+        "answer": 2,
+        "question": "전기 및 정보통신기술을 활용하여 전력망을 지능화, 고도화 함으로써 고품질의 전력서비스를 제공하고 에너지 이용효율 을 극대화하는 전력망은?",
+        "options": {
+            "opt_1": "사물 인터넷",
+            "opt_2": "스마트 그리드",
+            "opt_3": "디지털 아카이빙",
+            "opt_4": "미디어 빅뱅"
+        }
+    },
+    {
+        "id": 93,
+        "image": "images\\q_img_202103_6_1_1.png",
+        "answer": 3,
+        "question": "다음 내용이 설명하는 소프트웨어 개발 모형은?",
+        "options": {
+            "opt_1": "프로토타입 모형",
+            "opt_2": "나선형 모형",
+            "opt_3": "폭포수 모형",
+            "opt_4": "RAD 모형"
+        }
+    },
+    {
+        "id": 94,
+        "image": null,
+        "answer": 2,
+        "question": "스트림 암호화 방식의 설명으로 옳지 않은 것은?",
+        "options": {
+            "opt_1": "비트/바이트/단어들을 순차적으로 암호화한다.",
+            "opt_2": "해쉬 함수를 이용한 해쉬 암호화 방식을 사용한다.",
+            "opt_3": "RC4는 스트림 암호화 방식에 해당한다.",
+            "opt_4": "대칭키 암호화 방식이다."
+        }
+    },
+    {
+        "id": 95,
+        "image": null,
+        "answer": 1,
+        "question": "세션 하이재킹을 탐지하는 방법으로 거리가 먼 것은?",
+        "options": {
+            "opt_1": "FTP SYN SEGNENT 탐지",
+            "opt_2": "비동기화 상태 탐지",
+            "opt_3": "ACK STORM 탐지",
+            "opt_4": "패킷의 유실 및 재전송 증가 탐지"
+        }
+    },
+    {
+        "id": 96,
+        "image": null,
+        "answer": 3,
+        "question": "소프트웨어공학에 대한 설명으로 거리가 먼 것은?",
+        "options": {
+            "opt_1": "소프트웨어공학이란 소프트웨어의 개발, 운용, 유지보수 및 파기에 대한 체계적인 접근 방법이다.",
+            "opt_2": "소프트웨어공학은 소프트웨어 제품의 품질을 향상시키고 소프트웨어 생산성과 작업 만족도를 증대시키는 것이 목 적이다.",
+            "opt_3": "소프트웨어공학의 궁극적 목표는 최대의 비용으로 계획 된 일정보다 가능한 빠른 시일 내에 소프트웨어를 개발 하는 것이다.",
+            "opt_4": "소프트웨어공학은 신뢰성 있는 소프트웨어를 경제적인 비용으로 획득하기 위해 공학적 원리를 정립하고 이를 이용하는 것이다."
+        }
+    },
+    {
+        "id": 97,
+        "image": null,
+        "answer": 3,
+        "question": "소프트웨어 개발 방법론 중 CBD(Component Based Development)에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "생산성과 품질을 높이고, 유지보수 비용을 최소화할 수 있다.",
+            "opt_2": "컴포넌트 제작 기법을 통해 재사용성을 향상시킨다.",
+            "opt_3": "모듈의 분할과 정복에 의한 하향식 설계방식이다.",
+            "opt_4": "독립적인 컴포넌트 단위의 관리로 복잡성을 최소화할 수 있다."
+        }
+    },
+    {
+        "id": 98,
+        "image": null,
+        "answer": 4,
+        "question": "정보 보안의 3요소에 해당하지 않는 것은?",
+        "options": {
+            "opt_1": "기밀성",
+            "opt_2": "무결성",
+            "opt_3": "가용성",
+            "opt_4": "휘발성"
+        }
+    },
+    {
+        "id": 99,
+        "image": null,
+        "answer": 1,
+        "question": "소셜 네트워크에서 악의적인 사용자가 지인 또는 특정 유명 인으로 가장하여 활동하는 공격 기법은?(문제 오류로 가답안 발표시 1번으로 발표되었지만 확정답안 발표시 1, 2번이 정답처리 되었습니다. 여기서는 가답안인 1번을 누르시면 정답 처리 됩니다.)",
+        "options": {
+            "opt_1": "Evil Twin Attack",
+            "opt_2": "Phishing",
+            "opt_3": "Logic Bomb",
+            "opt_4": "Cyberbullying"
+        }
+    },
+    {
+        "id": 100,
+        "image": null,
+        "answer": 1,
+        "question": "공개키 암호에 대한 설명으로 틀린 것은?",
+        "options": {
+            "opt_1": "10명이 공개키 암호를 사용할 경우 5개의 키가 필요하 다.",
+            "opt_2": "복호화키는 비공개 되어 있다.",
+            "opt_3": "송신자는 수신자의 공개키로 문서를 암호화한다.",
+            "opt_4": "공개키 암호로 널리 알려진 알고리즘은 RSA가 있다."
+        }
+    }
+]
