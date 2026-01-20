@@ -5,14 +5,14 @@ import plotly.express as px
 from openai import OpenAI
 
 # 1. 초기 설정 및 보안 체크
-st.set_page_config(page_title="안되면 되게, 그래도 안되면 될 때까지! ", layout="wide")
+st.set_page_config(page_title="NEMO GAME CBT", layout="wide")
 
 if "auth" not in st.session_state:
     st.session_state.auth = False
 
 if not st.session_state.auth:
     st.title("🔐 접근 제한")
-    password_input = st.text_input("서비스 이용을 위해 암호를 입력하세요. made by luke park", type="password")
+    password_input = st.text_input("서비스 이용을 위해 암호를 입력하세요. 목적지만 분명하다면 길을 잠시 잃어도 되요. 다음 교차로에서 우회전해서 찾아가면 되니.. made by luke park", type="password")
     if st.button("로그인"):
         # 스트림릿 secrets에 설정된 LOGIN_PASSWORD와 비교
         if password_input == st.secrets["LOGIN_PASSWORD"]:
@@ -111,7 +111,7 @@ if st.session_state.idx >= len(exam_data):
 # 5. 메인 문제 풀이 UI
 q = exam_data[st.session_state.idx]
 
-st.title(f"📚 NEMO GAME")
+st.title(f"📚 안되면 되게, 그래도 안되면 될 때까지!")
 st.progress((st.session_state.idx + 1) / len(exam_data))
 
 col_main, col_side = st.columns([2, 1])
